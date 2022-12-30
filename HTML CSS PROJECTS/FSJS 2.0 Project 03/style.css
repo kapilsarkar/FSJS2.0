@@ -1,0 +1,152 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    background-color:#fff;
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+}
+.navbar-container img{
+    max-width: 50%;
+    height: auto;
+    margin-top: 12px;
+    margin-left: 60px;
+    
+}
+.list{
+    display: flex;
+   align-items: center;
+   gap: 90px;
+   margin-left: 110px;
+}
+.list .list-item{
+    list-style: none;
+    font-weight: 500;
+    color: #0D0D0D;
+    /* font-size: 20px; */
+   font-style: bold;
+   font: small-caps bold 24px/1 sans-serif;
+   
+   
+}
+.list .list-item:first-child{
+    text-decoration: underline;
+   padding:20px 10px;
+}
+.button-group{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 160px;
+    
+}
+.search-icon{
+    padding: 2px 9px;
+}
+.nav-button{
+    border: 3px solid #0D0D0D;
+    font-weight: 500;
+    font-size: 24px;
+    border-radius: 14px;
+    padding: 5px 38px;
+}
+.hero-container{
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.square{
+    position: relative;
+    top:200px;
+}
+img[src="./assets/Image.png"]{
+    width: 137%;
+    height: 140%;
+    position: relative;
+    top: 120px;
+    right: 650px;
+    
+}
+.hero-heading{
+    font-size: 75px;
+    position: relative;
+    top:90px;
+    right: 300px;
+    width: 144%;
+    font-style: bold;
+   font: small-caps bold 68px/1 sans-serif;
+   padding: 5px 5px;
+   
+}
+.hero-description{
+    position: relative;
+   position: relative;
+   top:120px;
+   right: 200px;
+   /* display: flex;
+   flex-wrap: wrap; */
+   font-size: 15px;
+   
+}
+.globe{
+    position: relative;
+    bottom: 110px;
+    left: 170px;
+    width: 10%;
+}
+
+.star{
+    position: relative;
+    bottom: 100px;
+    left: 790px;
+}
+.star2{
+    position: relative;
+    top:320px;
+}
+.button-email{
+    position: relative;
+    top:230px;
+    right: 100px;
+    border: 3px solid #0D0D0D;
+    font-weight: 500;
+    font-size: 22px;
+    border-radius: 14px;
+    padding: 3px 38px;
+}
+.button-join{
+    position: relative;
+    top:230px;
+    right: 80px;
+    border: 3px solid #0D0D0D;
+    font-weight: 500;
+    font-size: 21px;
+    border-radius: 14px;
+    padding: 3px 3px;
+    color: #fff;
+    background-color: #0D0D0D;
+}
+.contact-heading{
+    position: relative;
+    top:300px;
+    margin-left: 35px;
+    font-size: 23px;
+}
+.icons{
+    position: relative;
+    top: 320px;
+    /* display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px; */
+   display: inline-block;
+   
+    
+}
+/* .hero-container-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */

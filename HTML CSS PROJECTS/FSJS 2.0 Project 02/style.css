@@ -1,0 +1,117 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url("./assets/bg.png");
+    background-size: 100% 300%;
+    background-repeat: no-repeat; 
+}
+/* .container{
+    background-image: url("./assets/bg.png");
+    background-size: 300% 300%;
+    background-repeat: no-repeat;
+} */
+.logo{
+    max-width: 62%;
+    height: auto;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+.line{
+    border-left: 2px solid #fff;
+}
+.navbar{
+    display: flex;
+    /* margin-left: 50px; */
+    padding: 15px 25px;
+    margin-bottom: 5px;
+    background-color: #0D0D0D;
+}
+.grow-list .list .list-item{
+    list-style: none;
+    font-weight: 500;
+    color: #fff;
+    font-size: large;
+   font-style: bold;
+}
+.grow-list{
+    padding: 21px 20px;
+    margin-left: 20px;
+   
+}
+.grow-list .list{
+    display: flex;
+    align-items: center;
+    
+    gap: 50px;
+}
+.button-small{
+    background-color: #E03B8B;
+    padding: 7px 25px;
+    border-radius: 9px;
+    border-color:#E03B8B;
+    color: #fff;
+    font-size:15px;
+    /* position: relative;
+    right: 100px; */
+    margin-top: 12px;
+    margin-left: 500px;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.hero-heading{
+    color: #fff;
+    font-size: 70px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* padding: 20px 30px; */
+    position:relative;
+    top: 50px;
+    left: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-description{
+    color: #fff;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position:relative;
+    top: 150px;
+    right: 150px;
+    font-size: 25px;
+}
+.button-large{
+    background-color: #E03B8B;
+    padding: 14px 25px;
+    border-radius: 9px;
+    border-color:#E03B8B;
+    color: #fff;
+    font-size:20px;
+    font-weight: 500;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position:relative;
+    top: 240px;
+   right: 530px;
+    font-size: 25px;
+    /* align-self: center; */
+   
+}
+/* .hero-heading .hero-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */

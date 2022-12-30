@@ -1,0 +1,113 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*
+{
+    margin:0;
+    padding:0;
+
+}
+/* NEW CODE */
+.heading-text{
+    margin-left: 70px;
+}
+.description{
+    margin-left: 70px;
+    line-break: inherit;
+}
+/* NEW CODE */
+.navbar-container{
+    display: flex;
+    margin-left: 50px;
+    padding: 15px 25px;
+    margin-bottom: 5px;
+}
+.button-group{
+    margin-left: 520px;
+   margin-top: 5px;
+}
+
+.button-group .nav-button{
+    background-color: #5A20CB;
+    padding: 12px 25px;
+    border-radius: 9px;
+    border-color:#5A20CB;
+    color: #fff;
+    font-size:15px;
+    position: relative;
+    right: 100px;
+   
+}
+.grow-list{
+    padding: 21px 20px;
+    margin-left: 20px;
+   
+}
+.grow-list .list{
+    display: flex;
+    align-items: center;
+    
+    gap: 50px;
+}
+
+.grow-list .list .list-item{
+    list-style: none;
+    font-weight: 500;
+   
+}
+ul li:first-child{
+    font-size:larger;
+}
+ul li:nth-child(n+2){
+    color: #758283;
+}
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.banner-container .nav-button {
+    background-color: #5A20CB;
+    padding: 20px 36px;
+    border-radius: 12px;
+    border-color:#5A20CB;
+    color: #fff;
+    font-size:18px;
+   /* NEW CODE */ margin-left: 70px;
+}
+.banner-container img{
+    max-width: 70%;
+    height: auto;
+    margin-left: 230px;
+    
+    /* padding-left:200px; */
+   /* margin-bottom: 50px; */
+  
+   
+}
+.navbar-container img{
+    max-width: 62%;
+    height: auto;
+    margin-top: 12px;
+   
+}
+.heading-text{
+    font-size: 57px;
+}
+.heading-text span{
+    color: #5A20CB;
+    
+} 
+
+.heading-text span::before{
+    content: "\a";
+    white-space: pre;
+}
+.description{
+    margin-top: 20px;
+    color: #758283;
+    margin-bottom: 50px;
+    
+}
+
+
