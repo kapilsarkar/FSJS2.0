@@ -2,7 +2,7 @@
 
 ![img1](https://img.shields.io/badge/DONE%20IN-HTML%20AND%20CSS-yellowgreen)
 
-![img2](https://img.shields.io/badge/LIVE-LINK-red) [LINK]()
+![img2](https://img.shields.io/badge/LIVE-LINK-red) [LINK](https://fsjs-2-0-p90zttlrn-kapilsarkar.vercel.app)
 
 ![img3](https://img.shields.io/badge/OUTPUTS-ACHIEVED-brightgreen)
 
