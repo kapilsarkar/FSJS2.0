@@ -18,6 +18,8 @@
 
 1. `ARRAY METHODS IN JAVASCRIPT`:point_right: [LINK](https://kapil2.hashnode.dev/array-methods-in-java-script)
 
+1. `AN INTRODUCTION TO JAVASCRIPT`:point_right: [LINK](https://kapil2.hashnode.dev/an-introduction-to-java-script)
+
 
 
 ![IMG2](https://img.shields.io/badge/HTML-LEARNINGS-red)
