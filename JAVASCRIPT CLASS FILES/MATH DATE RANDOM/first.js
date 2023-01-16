@@ -42,3 +42,17 @@
 
 //Math-
 //The Math object provides properties and methods for mathematical constants and functions
+// const PI=Math;
+// console.log(PI);
+//Math.round()-This method is used to round a number to the nearest integer
+// let num=3.2;
+// console.log(Math.round(3.2));
+//It makes the number to the nearest integer to-3
+//Similarly we can also do with this approach
+
+// const PI=Math;
+// console.log(PI);
+// console.log(Math.round(9.5));
+// console.log(Math.round(9.2));
+
+//In the both the cases we have seen the number is being rounded to its nearest integer which is 9.5 becomes 10 and 9.2 becomes 9.
