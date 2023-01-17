@@ -76,6 +76,29 @@
 //     console.log('Value of i is',i );
 // }
 
+//Break and continue-
+//Break-It simply means terminate everything and come out of the loop
+//Now let us understand with an example-
+// for(let i=0;i<=5;i++){
+//    if(i==3){
+//       break;
+//    }
+//    console.log(i);
+// }
+//So here in this case the loop will break as soon as it will reach the condition i==3
+//and it print the from 0 to 2.
+
+//continue-It simply means skip and continue 
+//Now let us understand with an example-
+// for(let i=0;i<=5;i++){
+//    if(i==3){
+//       continue;
+//    }
+//    console.log(i);
+// }
+//Now here in this case it will print all the values from 0 to 5
+//means it will skip the value 3 and the output is
+
 //So here the value of i is printed from 0 to 11. 
 
 // for(let i=0;i<=10;i++){
