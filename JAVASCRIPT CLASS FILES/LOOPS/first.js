@@ -106,3 +106,16 @@
 //     console.log(`${i} + ${i}=${i+i}`);
 //     console.log(`${i} - ${i}=${i-i}`);
 // }
+//For ofLoop-
+//For of loop is used in array insimple words it itterates over an array-
+//Let us understand this with an example-
+// let cricketrs=['Kapil','Sachin','Virat','Rohit','Surya'];
+// let uppercase=[];
+// for(let top of cricketrs){
+//    uppercase.push(top.toUpperCase());
+// }
+// console.log(uppercase);
+//Here first an array is declared with the name cricketrs which contains 5 values
+//Then an empty array is declared named uppercase
+//By the help of for of loop and touppercase method all the values in the array named cricketrs are then shifted towards the empth array named uppercase with all the values having capital letters.
+//The output displayed is-

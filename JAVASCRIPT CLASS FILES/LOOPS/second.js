@@ -48,3 +48,9 @@
 //     }
 //     console.log(i);
 //  }
+// let cricketrs=['Kapil','Sachin','Virat','Rohit','Surya'];
+// let uppercase=[];
+// for(let top of cricketrs){
+//    uppercase.push(top.toUpperCase());
+// }
+// console.log(uppercase);
