@@ -68,3 +68,29 @@
 // }
 // let google=URL('google','.co.in');
 // console.log(google);
+
+// function sum(arr)
+// {
+//     let sum=0;
+//     for(let i=0;i<arr.length;i++){
+//         sum=sum +arr[i];
+//     }
+//     return sum;
+// }
+// let sumarray=[1,2,3,5,6,7,8,9];
+// let arresult=sum(sumarray);
+// console.log(arresult);
+
+// let kapil=()=> {
+//     console.log('My name is Kapil Sarkar');
+// }
+// kapil();
+
+
+//  let sum=(var1,var2)=>
+//  {
+//     let add=var1 + var2;
+//     console.log(add);
+
+//  }
+//  sum(10,20);

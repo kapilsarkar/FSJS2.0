@@ -103,14 +103,63 @@
 
 //Function with string-
 
-function URL(url,domain)
-{
-    let con="https://";
-    let result=con + url + domain;
-    return result;
-}
-let google=URL('google','.co.in');
-console.log(google);
+// function URL(url,domain)
+// {
+//     let con="https://";
+//     let result=con + url + domain;
+//     return result;
+// }
+// let google=URL('google','.co.in');
+// console.log(google);
 
 //Here function named URL is created which contains two parametrs url and domain.
 //It gives the output of the search engine googele.co.in
+
+//Functions which calculates values inside array-
+
+// function sum(arr)
+// {
+//     let sum=0;
+//     for(let i=0;i<arr.length;i++){
+//         sum=sum +arr[i];
+//     }
+//     return sum;
+// }
+// let sumarray=[1,2,3,5,6,7,8,9];
+// let arresult=sum(sumarray);
+// console.log(arresult);
+//Here in this case it does the addtion of values inside array.
+//First of all function is declared with name sum then parameter named arr is passed then varible named sum is declared.Then with the help of for loop claculates the values inside array.
+
+
+//Arrow Functons-
+//There is another way of declaring functions in modern JavaScript, and that's with the arrow function, which actually looks like an arrow: () => {}
+//They are often used for short line of code or to execute single liners functions.
+//Arrow functions are actually shorter and faster to write. 
+//syntax-
+//(parameters) => { statements// code to be executed };
+// let kapil=()=> {
+//     console.log('My name is Kapil Sarkar');
+// }
+// kapil();
+// //Here a simple arrow function is created
+//First of all a variable is declared as named kapil.
+//Then ()=> is added to it so then it can be called as arrow function
+//Inside the function a simple statement is printed.
+//Then the function is called.
+//The output is-
+
+//Arrow Function with parameters-
+//  let sum=(var1,var2)=>
+//  {
+//     let add=var1 + var2;
+//     console.log(add);
+
+//  }
+//  sum(10,20);
+ //Here first a variable is declared named sum then ()=> is added to make it arrow function
+ //Inside sum two parameters are passed var1 and var2.
+ //A varaible named add is decaled which does the job of addition of var1 and var2
+ //Then the variable add is printed.
+ //At last the function sum is called with two values 10 and 20.
+ //The Output is-
