@@ -18,11 +18,11 @@
 // }
 
 
-// let j=11;
+// let i=11;
 // do{
-//     console.log('Value of j is',j);
-//     j++;
-// }while(j<=10);
+//     console.log('Value of i is',i);
+//     i++;
+// }while(i<=10);
 
 // for(let i=0;i<=11;i++)
 // {
@@ -48,9 +48,9 @@
 //     }
 //     console.log(i);
 //  }
-// let cricketrs=['Kapil','Sachin','Virat','Rohit','Surya'];
-// let uppercase=[];
-// for(let top of cricketrs){
-//    uppercase.push(top.toUpperCase());
-// }
-// console.log(uppercase);
+let cricketrs=['Kapil','Sachin','Virat','Rohit','Surya'];
+let uppercase=[];
+for(let top of cricketrs){
+   uppercase.push(top.toUpperCase());
+}
+console.log(uppercase);

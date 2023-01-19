@@ -109,11 +109,11 @@
 //     let result=con + url + domain;
 //     return result;
 // }
-// let google=URL('google','.co.in');
+// let google=URL('www.google','.co.in');
 // console.log(google);
 
 //Here function named URL is created which contains two parametrs url and domain.
-//It gives the output of the search engine googele.co.in
+//It gives the output of the search engine googele.co.in 
 
 //Functions which calculates values inside array-
 

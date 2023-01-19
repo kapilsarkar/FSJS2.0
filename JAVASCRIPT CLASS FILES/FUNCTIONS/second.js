@@ -20,11 +20,9 @@
 //     let result=val1 + val2;
    
 //     return result;
-    
-
 // }
 // let add=sum(20,30);
-// console.log('The sult if addtion is',add);
+// console.log('The result of addtion is',add);
 
 // function minus(val1,val2)
 // {
@@ -40,7 +38,7 @@
 //     return result;
 // }
 // let multiply=mul(30,20);
-// console.log('The resilt of multiplication is',multiply);
+// console.log('The result of multiplication is',multiply);
 
 
 // function division(val1,val2)
@@ -66,7 +64,7 @@
 //     let result=con + url + domain;
 //     return result;
 // }
-// let google=URL('google','.co.in');
+// let google=URL('www.google','.co.in');
 // console.log(google);
 
 // function sum(arr)
@@ -90,7 +88,11 @@
 //  let sum=(var1,var2)=>
 //  {
 //     let add=var1 + var2;
-//     console.log(add);
+//     let sub=var1 - var2;
+//     console.log('Addition of the numbers are :',add);
+//     console.log('Subtraction of the numbers are :',sub);
 
 //  }
 //  sum(10,20);
+//  sum(30,60);
+//  sum(200,100);
