@@ -253,7 +253,7 @@
 
 //Here it gives the result of y=y-1
 
-//* = (Multiply and Assignment Operator): It multiplies the right side value and the left side value and then assigns the result to the left operand. 
+///* = (Multiply and Assignment Operator): It multiplies the right side value and the left side value and then assigns the result to the left operand. 
 
 // let y=20;
 // y*=1;
@@ -332,37 +332,4 @@
 
 //Logical Operators: There are various Logical Operators in JavaScript – 
 
-//&& (Logical AND): It checks whether two operands are non-zero (0, false, undefined, null, or “” are considered as zero), if yes then return the last operand when evaluating from left to right.
-//The && operator returns true if both expressions are true, otherwise it returns false.
-// let x=10;
-// let y=15;
-// console.log(x<20 && y>1);
-
-//Here in this case the value of x which is set to 10 is less than 20 sothe output is truue and alonhside the value of y which is 15 is greater than 1 so then also the output is true by the help of logical && operator.
-
-//|| (Logical OR): It checks whether two operands are non-zero (0, false, undefined, null, or “” is considered as zero), if yes then return the first operand when evaluating from left to right. 
-
-//The || returns true if one or both expressions are true, otherwise it returns false.
-
-// let x=20;
-// let y=30;
-// console.log(x==10 || y==60);
-
-// Here in both the cases the value of x and y which is set to 20 and 30 respectively are to similar to 10 and 60 so the output is set to be false.
-
-//! (Logical NOT): It reverses the boolean result of the operand (or condition). 
-
-//The NOT operator (!) returns true for false statements and false for true statements.
-
-// let x=20;
-// let y=30;
-// console.log(!x>y);
-
-//Here by the logical NOT OPERATOR x ids nit graeter than y so it returns the value false.
-
-//Ternary Operator: 
-//: ? Operator:It is like the short form of the if-else condition. 
-
-// let x=10;
-// let y=70;
-// console.log(x?y);
+//

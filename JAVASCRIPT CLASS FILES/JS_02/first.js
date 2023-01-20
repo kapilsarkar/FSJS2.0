@@ -64,7 +64,7 @@
 // }
 // Now here the second condition becomes true so the second staetement is executed
 //switch case in javascript-
-//There will be some cases in javascript where we will use the switch-case over else-if but in most of the case we are going to use else if condition.
+//There will be some cases in javascript where we will use the swith-case over else-if but in most of the case we are going to use else if condition.
 //Here in the case of swith case the switch statement evaluates a variable/expression inside parenthesis
 //if the result of the expression is equal to the first case then the first block will be executed and if the result of the expression is equal to the second case then the second block will be executed ans the same thing goes on and at last the default block will be executed
 //Now let us understand swithh case with an example-
