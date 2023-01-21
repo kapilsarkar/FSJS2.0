@@ -21,13 +21,13 @@
  //The combination of both key and values are called the property of an object.
  // Apart from these string, number, bigint, boolean, null, undefine, symbol all are objects in javascript.
   
- //Creating object using a construvtor-
+ //Creating object using a constructor-
 
- const kapil =new Object()
+//  const kapil =new Object();
 
- kapil1.country='India'
- kapil1.religion='Hindu'
- console.log('kapil1');
+//  kapil.country='India'
+//  kapil.religion='Hindu'
+//  console.log(kapil);
 
  // Acessing properties of an object -
 
@@ -47,3 +47,38 @@
  //We can also get the value of a property using [ ]. 
 
 //  console.log(details['fname']);
+
+//Update of properties in an object-
+//In object the existing properties of can be updated and also new properies can be added-
+// const mydetails={
+//     fname:'Kapil',
+//     lname:'Sarkar',
+//     address:'Asansol'
+// }
+// console.log(mydetails);
+
+//Adding new property to an existing object-
+//mydetails.phoneno=9999999999;
+//console.log(mydetails);
+//Update of property to an existing property-
+//mydetails.address='Burnpur';
+//console.log(mydetails);
+//Deletion of property-
+
+//delete mydetails.lname;
+//console.log(mydetails);
+
+
+//Creating Methods in Javascript-
+//Functions in object are called methods 
+
+const mydetails={
+    fname:'Kapil',
+    lname:'Sarkar',
+    address:'Asansol',
+    getaddress(){
+        console.log(`Address is :${mydetails.address}`);
+    }
+}
+//console.log(mydetails);
+mydetails.getaddress();
