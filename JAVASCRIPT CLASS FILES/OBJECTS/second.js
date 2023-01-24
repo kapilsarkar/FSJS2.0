@@ -32,3 +32,30 @@
 
 //delete mydetails.lname;
 //console.log(mydetails);
+
+// const mydetails={
+//     fname:'Kapil',
+//     lname:'Sarkar',
+//     address:'Asansol',
+//     getaddress(){
+//         console.log(`Address is :${mydetails.address}`);
+//     }
+// }
+// //console.log(mydetails);
+// mydetails.getaddress();
+
+
+// const details ={
+//     mydetails :{
+//         fname :'Kapil',
+//         lname :'Sarkar',
+//         address:'Asansol',
+//         myinfo:{
+//             education:'MCA',
+//             rolemode:'Sachin Tendulkar',
+//         }
+        
+//     }
+// };  console.log(details);
+
+//For in loop in objects.

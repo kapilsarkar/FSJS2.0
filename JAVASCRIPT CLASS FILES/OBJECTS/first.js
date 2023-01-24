@@ -72,13 +72,47 @@
 //Creating Methods in Javascript-
 //Functions in object are called methods 
 
-const mydetails={
-    fname:'Kapil',
+// const mydetails={
+//     fname:'Kapil',
+//     lname:'Sarkar',
+//     address:'Asansol',
+//     getaddress(){
+//         console.log(`Address is :${mydetails.address}`);
+//     }
+// }
+// //console.log(mydetails);
+// mydetails.getaddress();
+
+//Here a method is declared by name getaddress()
+//The methods is invoked by mydetails getaddress()
+
+//Creating Nested Objects-
+//Insie as object can also create a bunch of objects in it.
+
+// const details ={
+//     mydetails :{
+//         fname :'Kapil',
+//         lname :'Sarkar',
+//         address:'Asansol',
+//         myinfo:{
+//             education:'MCA',
+//             rolemode:'Sachin Tendulkar',
+//         }
+        
+//     }
+// };  console.log(details);
+
+//For in Loop -
+//For in Loop is used in javascript in case of object.
+ let mydetails={
+    fname:'Kpail',
     lname:'Sarkar',
-    address:'Asansol',
-    getaddress(){
-        console.log(`Address is :${mydetails.address}`);
-    }
-}
-//console.log(mydetails);
-mydetails.getaddress();
+    address:'Asansol'
+ }
+//  for(let x in mydetails){
+//     console.log(x);
+//  }
+ for (let x in mydetails){
+    console.log(mydetails[x]);
+ }
+
