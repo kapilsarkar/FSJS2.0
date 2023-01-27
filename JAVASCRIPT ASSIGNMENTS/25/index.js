@@ -4,3 +4,30 @@
 //     - Normal weight: BMI is 18.5 to 24.9
 //     - Overweight: BMI is 25 to 29.9
 //     - Obese: BMI is 30 or more
+
+
+let weight=95;
+height=160;
+let bmiheight=height*height;
+function calculatebmi(w,h)
+{
+    let bmi=w/h;
+    if(bmi<18.5)
+    {
+        console.log('You are Underweight');
+
+    }
+    else if(bmi>=18.5 && bmi<=24.9 )
+    {
+        console.log('You are Normal Weight');
+    }
+    else if(bmi>=25 && bmi <=29.9)
+    {
+        console.log('You are Overweight');
+    }
+    else if(bmi >= 30)
+    {
+        console.log('Tou are Obese');
+    }
+}
+calculatebmi(weight,bmiheight);

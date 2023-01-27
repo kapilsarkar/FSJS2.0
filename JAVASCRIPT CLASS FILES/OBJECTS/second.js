@@ -69,11 +69,11 @@
 //     console.log(mydetails[x]);
 //  }
 
-// let cricket={
-//     batsman:true,
-//     bowler:true,
-// };
-// let sports=Object.create(cricket);
-// //console.log(sports);
-// console.log(sports.batsman);
-// console.log(sports.bowler);
+let cricket={
+    batsman:true,
+    bowler:true,
+};
+let sports=Object.create(cricket);
+//console.log(sports);
+console.log(sports.batsman);
+console.log(sports.bowler);

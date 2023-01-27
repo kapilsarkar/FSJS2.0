@@ -46,7 +46,7 @@
  //2. Using Bracket Notation-
  //We can also get the value of a property using [ ]. 
 
-//  console.log(details['fname']);
+  //console.log(details['fname']);
 
 //Update of properties in an object-
 //In object the existing properties of can be updated and also new properies can be added-
@@ -80,8 +80,8 @@
 //         console.log(`Address is :${mydetails.address}`);
 //     }
 // }
-// //console.log(mydetails);
-// mydetails.getaddress();
+//console.log(mydetails);
+//mydetails.getaddress();
 
 //Here a method is declared by name getaddress()
 //The methods is invoked by mydetails getaddress()
@@ -131,7 +131,7 @@
 //  console.log(sports.bowler);
 
 //object.defineProperty()-
-//n JavaScript is a standard built-in Object that defines a new or modifies existing properties directly on an object and it returns the object.
+//In JavaScript is a standard built-in Object that defines a new or modifies existing properties directly on an object and it returns the object.
 
 //Syntax-
 //Object.defineProperties(obj, props) 
@@ -146,7 +146,7 @@
 // myname.fname='Kpail Sarkar';
 // console.log(myname);
 //Now let us do the same thing by object.defineProperty-
-// const myname={}
+//  const myname={}
 // Object.defineProperty(myname,'fname',{
 //    value:'Kapil',
 //    writable:false
@@ -178,7 +178,7 @@
 //    },
 // };
 //console.log(details.fulldetails());
-
+//console.log(`${details.fulldetails()}`);
 //Chaining of Function-
 //console.log(details.fulldetails().fulldetails().fulldetails());
 
@@ -196,18 +196,18 @@
 //     }
 //   };
 
-// let details={
-//    fname:'Kapil',
-//    lname:'Sarkar',
+let details={
+   fname:'Kapil',
+   lname:'Sarkar',
 
-//    get mydetails(){
-//       return `${this.fname} ${this.lname};`
-//    } ,
-//    set mydetails(value){
-//       [this.fname,this.lname]=value.split(' ');
-//    }
-// };
-// console.log(details.mydetails.split(' '));
+   get mydetails(){
+      return `${this.fname} ${this.lname};`
+   } ,
+   set mydetails(value){
+      [this.fname,this.lname]=value.split(' ');
+   }
+};
+console.log(details.mydetails.split(' '));
 
 
 
