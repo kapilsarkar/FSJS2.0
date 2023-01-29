@@ -2,29 +2,35 @@
 
 ![ART](https://img.shields.io/badge/ARTICLES-WRITTEN-red)
 
-### LIST OF ARTCLES : 
+### 📝 LIST OF ARTCLES : 
 
 :sparkles::sparkles::sparkles::sparkles::sparkles:
 
-1.  `AN INTRODUCTION TO WEB AND HTML`:point_right: [LINK](https://kapil2.hashnode.dev/an-introduction-to-web-and-html)
+1. :pencil2:  `AN INTRODUCTION TO WEB AND HTML`:point_right: [LINK](https://kapil2.hashnode.dev/an-introduction-to-web-and-html)
 
-1.  `AN INTODUCTION TO CSS SELECTORS`:point_right: [LINK](https://kapil2.hashnode.dev/introduction-to-css-selectors)
+1. :pencil2:  `AN INTODUCTION TO CSS SELECTORS`:point_right: [LINK](https://kapil2.hashnode.dev/introduction-to-css-selectors)
 
-1. `CSS POSITIONING`:point_right: [LINK](https://kapil2.hashnode.dev/css-positioning)
+1. :pencil2: `CSS POSITIONING`:point_right: [LINK](https://kapil2.hashnode.dev/css-positioning)
 
-1. `CSS FLEX BOX`:point_right: [LINK](https://kapil2.hashnode.dev/css-flex-box)
+1. :pencil2: `CSS FLEX BOX`:point_right: [LINK](https://kapil2.hashnode.dev/css-flex-box)
 
-1. `CSS GRID`:point_right: [LINK](https://kapil2.hashnode.dev/css-grid-a-two-dimensional-layout)
+1. :pencil2: `CSS GRID`:point_right: [LINK](https://kapil2.hashnode.dev/css-grid-a-two-dimensional-layout)
 
-1. `ARRAY METHODS IN JAVASCRIPT`:point_right: [LINK](https://kapil2.hashnode.dev/array-methods-in-java-script)
+1. :pencil2: `ARRAY METHODS IN JAVASCRIPT`:point_right: [LINK](https://kapil2.hashnode.dev/array-methods-in-java-script)
 
-1. `AN INTRODUCTION TO JAVASCRIPT`:point_right: [LINK](https://kapil2.hashnode.dev/an-introduction-to-java-script)
+1. :pencil2: `AN INTRODUCTION TO JAVASCRIPT`:point_right: [LINK](https://kapil2.hashnode.dev/an-introduction-to-java-script)
+
+1.:pencil2: `CONDITIONS MATH DATE LOOP IN JAVASCRIPT`:point_right:[LINK](https://kapil2.hashnode.dev/conditions-math-date-loops-in-javascript)
+
+1. :pencil2: `FUNCTIONS IN JAVASCRIPT` :point_right:[LINK](https://kapil2.hashnode.dev/functions-in-java-script)
+
+1. :pencil2: `OBJECTS IN JAVASCRIPT` :point_right: [LINK](https://kapil2.hashnode.dev/objects-in-java-script)
 
 
 
 ![IMG2](https://img.shields.io/badge/HTML-LEARNINGS-red)
 
-### HTML CLASS LEARNINGS :
+### :green_book: HTML CLASS LEARNINGS :
 
 1. `HTML CLASS-1` :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/CLS01_HTML)
 
@@ -37,7 +43,7 @@
 ![CSS](https://img.shields.io/badge/CSS-LEARNINGS-red)
 
 
-### CSS CLASS LEARNINGS :
+### :green_book: CSS CLASS LEARNINGS :
 
 1. `CSS CLASS FILE-1` :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/CLS01_CSS)
 
@@ -48,9 +54,39 @@
 1. `CSS CLASS FILE-4` :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/CLS04_CSS)
 
 
+### :green_book: JAVASCRIPT CLASS LEARNINGS :
+
+
+1. `JAVASCRIPT BASICS` :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/JS_01)
+
+1.  `CONDITIONS IN JAVASCRIPT` :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/JS_02)
+
+1. `LOOPS IN JAVASCRIPT`  :file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/LOOPS)
+
+1. `MATH DATE RANDOM IN JAVASCRIPT` :file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/MATH%20DATE%20RANDOM)
+
+1. `ARRAY PART1` :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/ARRAY)
+
+1. `ARRAY PART2` :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/ARRAY2)
+
+1. `FUNCTIONS` :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/FUNCTIONS)
+
+1. `OBJECTS IN JAVASCRIPT` :file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/OBJECTS)
+
+1. `PROTOTYOES IN JAVASCRIPT` :file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/PROTOTYPES)
+ 
+ ### :chart: JAVASCRIPT ASSIGNMENT :
+
+ 1. `JAVASCRIPT ASSIGNMENT OF 30 QUESTIONS` :file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20ASSIGNMENTS)
+
+
+ ### :chart: JAVASCRIPT PRACTICE : 
+ 
+ :file_folder:[FOLDER LINK]()
+
 ![IMG3](https://img.shields.io/badge/HTML%20AND%20CSS-PROJECTS-brightgreen)
 
-### LIST OF PROJECTS :
+### 💻 LIST OF PROJECTS :
 :star2::star2::star2::star2::star2::star2:
 1. `PROJECT-1` :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/HTML_CSS_PROJECTS_SET01/tree/main/FSJS%202.0%20Project%2001)
 
@@ -66,7 +102,7 @@
 
 ![IMG5](https://img.shields.io/badge/HTML%20AND%20CSS-EXTRA%20PROJECTS-orange)
 
-### LIST OF PROJECTS :
+### 💻 LIST OF PROJECTS :
 
 :sparkles::sparkles::sparkles::sparkles::sparkles::sparkles:
 
