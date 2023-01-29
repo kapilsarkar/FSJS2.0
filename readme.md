@@ -20,7 +20,7 @@
 
 1. :pencil2: `AN INTRODUCTION TO JAVASCRIPT`:point_right: [LINK](https://kapil2.hashnode.dev/an-introduction-to-java-script)
 
-1.:pencil2: `CONDITIONS MATH DATE LOOP IN JAVASCRIPT`:point_right:[LINK](https://kapil2.hashnode.dev/conditions-math-date-loops-in-javascript)
+1. :pencil2: `CONDITIONS MATH DATE LOOP IN JAVASCRIPT`:point_right:[LINK](https://kapil2.hashnode.dev/conditions-math-date-loops-in-javascript)
 
 1. :pencil2: `FUNCTIONS IN JAVASCRIPT` :point_right:[LINK](https://kapil2.hashnode.dev/functions-in-java-script)
 
