@@ -81,4 +81,18 @@
 //the true length of the string is 12.
 
 //Prototype Chaining:
-//
+//The prototype of an object would also be having a prototype of an object.This continues untill we reach the top level wnen there is no prototype object..This is called prototype chaining in javascript.
+// Let us suppose n object A contains a property 'new' which points to another 'new property pf object B'.Similarly object B's 'new' property points to object C's 'new'  property and again C's new property points to D's new property.This chain ends with the Object's object which is the highest level parent and every object inherits from it.
+
+// const fname={
+//    fn:'Kapil',
+// };
+// const lname=Object.create(fname);
+// lname.ln='Sarkar';
+// console.log(fname.fn);
+// console.log(lname.fn);
+// console.log(lname.ln);
+
+//Here in this case an object is declared with the property fn.
+//Object.create will create a new Object lname with prototype fn.
+//Now we can see lname dosn't have the property fn but it can still have the access to it with the help of prtotype chaining.The Output describes these things.
