@@ -31,4 +31,13 @@
 //The getPrototypeproperty property we used in nowadys to get prototype property.
 //here in this picture all the protype propertis are defined.
 
+// const cricket={
+//     names1:'Sachin',
+//     names2:'Virat',
+// }
+// console.log(Object.getPrototypeOf(cricket));
+// here in this picture all the protype propertis are defined.
+
+//Arryas are inheriting properties from object and these properties are injecting in the prototypes.
+// Prototype Description-
 //
