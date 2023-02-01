@@ -26,6 +26,8 @@
 
 1. :pencil2: `OBJECTS IN JAVASCRIPT` :point_right: [LINK](https://kapil2.hashnode.dev/objects-in-java-script)
 
+1.  :pencil2: `PROTOTYPES AND PROTOTYPE CHAINING IN JAVASCRIPT` :point_right: [LINK](https://kapil2.hashnode.dev/prototype-and-prototype-chaining-in-java-script)
+
 
 
 ![IMG2](https://img.shields.io/badge/HTML-LEARNINGS-red)

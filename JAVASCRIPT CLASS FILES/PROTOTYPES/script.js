@@ -43,8 +43,8 @@
 //The Graphical Description-
 //Let us discuss the Graphical descriptioon there are three Prtotypes Protype'Virat',Prototype'Hardik','Protype'Dravid.'
 //In maximum cases Protopype-'Virat' contains the most essential feature that a cricketer shouls have means Batting.Similarly Protype 'Hardik' also containns the the essential feature that a cricketer should have is batting but it also contains the feature bowling.
-//Noe in Prototype 'Dravid' contains the essential feature of cricketer batting but this prototype also contains the feuture of wicket-keeping
-//We can now come to the conclusion that Protype'Hardik' and Prototype'Dhoni' are the improved version of Protype'virat'. 
+//Now in Prototype 'Dravid' contains the essential feature of cricketer batting but this prototype also contains the feuture of wicket-keeping
+//We can now come to the conclusion that Protype'Hardik' and Prototype'Dravid' are the improved version of Protype'virat'. 
 //Advantages of prototype :
 //Protypes makes it easy for objects and fubctions to keep only one copy of features and for which the neversions of the protypes also have the access.
 //So the new versions ned not have to have to maka a copy of one particular feature they just need to make thier own individual features.
@@ -73,8 +73,8 @@
 //     console.log(`True Lenght is :${this.trim().length}`);
 // }
 
-// let myname='Kapil Sarkar   ';
-//console.log(mynname.truelength(myname));
+//  let fullname='Kapil Sarkar   ';
+//console.log(mynname.truelength(fullname));
 //browser code -myname.length
 //myname.truelength.
 //The lenght of the string is 15
@@ -82,16 +82,16 @@
 
 //Prototype Chaining:
 //The prototype of an object would also be having a prototype of an object.This continues untill we reach the top level wnen there is no prototype object..This is called prototype chaining in javascript.
-// Let us suppose n object A contains a property 'new' which points to another 'new property pf object B'.Similarly object B's 'new' property points to object C's 'new'  property and again C's new property points to D's new property.This chain ends with the Object's object which is the highest level parent and every object inherits from it.
+// Let us suppose an object A contains a property 'new' which points to another 'new property pf object B'.Similarly object B's 'new' property points to object C's 'new'  property and again C's new property points to D's new property.This chain ends with the Object's object which is the highest level parent and every object inherits from it.
 
-// const fname={
-//    fn:'Kapil',
-// };
-// const lname=Object.create(fname);
-// lname.ln='Sarkar';
-// console.log(fname.fn);
-// console.log(lname.fn);
-// console.log(lname.ln);
+const fname={
+   fn:'Kapil',
+};
+const lname=Object.create(fname);
+lname.ln='Sarkar';
+console.log(fname.fn);
+console.log(lname.fn);
+console.log(lname.ln);
 
 //Here in this case an object is declared with the property fn.
 //Object.create will create a new Object lname with prototype fn.
