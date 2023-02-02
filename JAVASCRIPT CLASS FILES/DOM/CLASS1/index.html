@@ -9,8 +9,8 @@
 </head>
 <body>
     <h1>My Name is Kapil Sarkar</h1>
-    <p class="part1">CLASS-I am an Aspiring Full Stack Javascript Developer</p>
-    <p id="part2">ID-I am an Aspiring Data Analyst</p>
+    <p class="part1class">CLASS-I am an Aspiring Full Stack Javascript Developer</p>
+    <p id="part2id">ID-I am an Aspiring Data Analyst</p>
     <ul>
         <li>CLASS-1</li>
         <li>CLASS-2</li>
@@ -20,5 +20,41 @@
         <li class="tech">REACT</li>
         <li class="tech">ANGULAR</li>
     </ul>
+    <p id="newid">HEY KAPIL HAPPY BIRTHDAY...</p>
+    <p class="john">HEY HELLO JOHN CENA</p>
+    <script>
+        //DOM-DOCUMENT OBJECT MODEL
+        //console.log(document);--selects the whole document or webpage.
+        //console.log(window.document)--selects the whole structure of html.
+        //console.log(document.head)--selects the whole head part of the html
+        //console.log(document.documentElement)--selects evry element in webpage.
+       // console.log(document.body)--selects only the body part in the html page.
+       //console.log(document.body.firstElementChild)--selects the the first element child in the body here in this case it is 'h1' tag.
+
+       //let val=document.getElementById('part2id');
+       //console.log(val.innerHTML);--will be able to load the whole the whole HTML and content.
+       //innerText returns all text contained by an element and all its child elements.
+       //console.log(val.innerText);--will be able to load all HTMLelents are removed and only text comes out as output.
+       //innerHtml returns all text, including html tags, that is contained by an element.
+
+       let val1=document.getElementsByClassName('tech')
+       console.log(val1);
+       console.log(val1[0].innerText) //Output-Javascript
+       console.log(val1[1].innerText)  //Output-React
+       val1[1].innerHTML='Kapil Sarkar'
+       val1[2].innerText='<h1>My Name is Piku Sarkar</h1>'
+
+       //BY TAG NAME
+
+       const val2=document.getElementsByTagName('ul')
+       console.log(val2)
+        //BY TAG
+        //QUERY SELECTOR-The Document method querySelector() returns the first Element within the document that matches the specified selector, or group of selectors. If no matches are found, null is returned.
+
+        let val3=document.querySelector('#newid').innerText
+        console.log(val3)
+       
+        let val5=document.querySelector('p').style.backgroundColor='red'
+    </script>
 </body>
 </html>
