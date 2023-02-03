@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM CLASS-2</title>
+</head>
+<body>
+    <h1>Welcome to DOM CLASS-2</h1>
+    <ul>
+
+    </ul>
+
+    
+        <h2>WELCOME TO <span id="wwe">WWE</span> AND CRICKET</h2>
+      <div id="cricket">
+        <div id="ipl">
+            KKR
+        </div>
+      </div>
+      
+    <script>
+        const list=`<li>Kapil Sarkar</li>
+        <li>Virat Kohli</li>
+        <li>Sachin Tendulkar</li>
+        <li>Dinesh Kartick</li>
+        <li>Hardik Pandya</li>
+        `;
+        const insul=document.querySelector('ul');
+        insul.innerHTML=list;
+
+        //Create Element on Screen
+        let title=document.createElement('h1')
+        title.className='heading';
+        title.style.fontSize='25px';
+        title.style.color='green';
+        title.textContent='WELCOME TO JAVASCRIPT DOM MANIPULATION CLASS2';
+        console.log(title);
+        document.body.appendChild(title);
+
+
+        //Remove Child-
+
+
+            const del= document.getElementById('cricket');
+            const del2=document.getElementById('ipl');
+           
+            const del3=del.removeChild(del2);
+
+            
+          
+            
+            
+
+    </script>
+</body>
+</html>
