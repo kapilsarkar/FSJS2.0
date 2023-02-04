@@ -76,6 +76,8 @@
 1. `OBJECTS IN JAVASCRIPT` :file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/OBJECTS)
 
 1. `PROTOTYOES IN JAVASCRIPT` :file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/PROTOTYPES)
+
+1. `DOM MANIPULATION IN JAVASCRIPT` :file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/DOM)
  
  ### :chart: JAVASCRIPT ASSIGNMENT :
 
