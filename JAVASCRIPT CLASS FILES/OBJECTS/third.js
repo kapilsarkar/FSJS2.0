@@ -4,11 +4,11 @@ let mydetails={
     fname:"Kapil",
     lname:"Sarkar",
     skills:[],
-    skillsknown: function(skillname){
+    skillsknown: function(skillname){  //Declaring a method inside object
         this.skills.push(skillname);
 
     },
-    getskills:function(){
+    getskills:function(){  //Declaring Multiple Methods inside Objects
         return `${this.fname} ${this.lname} has got skills ${this.skills.length}`;
     },
 };
