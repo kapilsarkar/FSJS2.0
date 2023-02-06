@@ -8,6 +8,7 @@
 </head>
 <body>
     <h1>Welcome to DOM CLASS-2</h1>
+    <p id="js"></p>
     <ul>
 
     </ul>
@@ -47,6 +48,20 @@
             const del2=document.getElementById('ipl');
            
             const del3=del.removeChild(del2);
+
+            //Looping in DOM Manipulation
+
+            for(i=1; i<=3; i++)
+            {
+                let para=document.createElement("p");
+                para.className="FSJS";
+                para.style.fontSize="20px";
+                console.log(para);
+                para.textContent=i + 'Kapil Sarkar';
+               
+                document.body.appendChild(para);
+            }
+
 
             
           
