@@ -50,17 +50,53 @@
             const del3=del.removeChild(del2);
 
             //Looping in DOM Manipulation
-
+            //FOR LOOP-
             for(i=1; i<=3; i++)
             {
                 let para=document.createElement("p");
                 para.className="FSJS";
                 para.style.fontSize="20px";
                 console.log(para);
-                para.textContent=i + 'Kapil Sarkar';
-               
+                if(i==1){
+                    para.textContent=i + 'Kapil Sarkar';
+                }
+                else if(i==2){
+                    para.textContent=i + 'John Cena';
+                }
+                else
+                {
+                    para.textContent=i+ 'Brock Lesnar';
+                }
                 document.body.appendChild(para);
             }
+
+            //WHILE LOOP-
+            let j=0;
+            while(j<5){
+                let para2=document.createElement('p');
+                para2.className='FSJS2';
+                para2.style.fontSize='20px';
+                para2.style.color='green';
+                console.log(para2);
+                j++;
+                para2.textContent=j + 'My Name is Kapil Sarkar';
+                document.body.appendChild(para2);
+                
+            }
+
+            //DO-WHILE LOOP-
+            let k=0;
+            do{
+                let para3=document.createElement('p');
+                para3.className='DATA2';
+                para3.style.fontSize='32px';
+                para3.style.color='red';
+                console.log(para3);
+                k++;
+                para3.textContent=k + 'My Name is Kapil Sarkar';
+                document.body.appendChild(para3);
+
+            }while(k<5);
 
 
             
