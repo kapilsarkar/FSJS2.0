@@ -26,6 +26,11 @@
     <!-- MOUSEOVER EVENT LISTNER -->
     <h2>MOUSEOVER AND MOUSELEAVE EVENT LISTNER</h2>
     <h3 id="js5">HELLO PLEASE HOVER YOUR MOUSE HERE</h3>
+     <!-- INPUT TYPE EVENT LISTNER -->
+    <h2>INPUT TYPE EVENT LISTNER</h2>
+    <input type="text" placeholder="Enter Your Text" id="kdownbox"/>
+    <p id="values"></p>
+   
     <script>
         let btnstyle=document.getElementById('btn');
         btnstyle.style.padding='32px';
@@ -85,6 +90,30 @@
             document.getElementById("js5").style.color="Red";
             document.getElementById("js5").style.backgroundColor="Yelloe";
         }
+
+        //Input Type Event Listner--
+        const input=document.querySelector("input");
+        const log=document.getElementById("values");
+        input.addEventListener("input", updatevalue);
+        function updatevalue(e){
+           log.textContent=e.target.value;
+           log.style.color="Green";
+        }
+
+        //kEYDOWN EVENT LISTNER
+
+        //keydown: Keydown happens when the key is pressed down, and auto repeats if the key is pressed down for long.
+
+        const input1=document.querySelector("input");
+        const log1=document.getElementById("kdown");
+        input1.addEventListener("keydown",logkey);
+        function logkey(e){
+            log1.textContent +=`${e.code}`;
+            //input1.onkeydown = logKey;
+
+        }
+
+
 
         /*
         - Click

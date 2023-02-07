@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEY UP EVENT LISTNER</title>
+</head>
+<body>
+     <!-- KEYUP TYPE EVENT LISTNER -->
+     <h2>KEYUP TYPE EVENT LISTNER</h2>
+     <input type="text" placeholder="Click here, then press and release a key" size="30">
+     <p id="kup"></p>
+     <script>
+        //KEYUP EVENT LISTNER
+        const input2=document.querySelector("input");
+        const log2=document.getElementById("kup")
+        input2.addEventListener("keyup",logkey2);
+        function logkey2(e){
+            log2.textContent +=`${e.code}`;
+        }
+     </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEYDOWN EVENT LISTNER</title>
+</head>
+<body>
+     <!-- KEYDOWN TYPE EVENT LISTNER -->
+     <h2>KEYDOWN TYPE EVENT LISTNER</h2>
+     <input type="text" placeholder="Click Here then Press Down a Key" size="30">
+     <p id="kdown"></p>
+    
+     <script>
+        //kEYDOWN EVENT LISTNER
+
+        //keydown: Keydown happens when the key is pressed down, and auto repeats if the key is pressed down for long.
+
+        const input1=document.querySelector("input");
+        const log1=document.getElementById("kdown");
+        input1.addEventListener("keydown",logkey);
+        function logkey(e){
+            log1.textContent +=`${e.code}`;
+            //input1.onkeydown = logKey;
+
+        }
+
+        
+
+
+     </script>
+</body>
+</html>
