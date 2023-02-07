@@ -13,6 +13,10 @@
     <!-- ONCLICK EVENT LISTNER -->
     <button id="btn" onclick="maths()">SUBMIT</button>
     <p id="js"></p>
+    <h2>DOUBLECLICK EVENT LISTNER</h2>
+    <button id="btn2" ondblclick="changetext()">SUBMIT</button>
+    <h3 id="js2">MY NAME IS KAPIL SARKAR</h3>
+    <!-- DOUBLECLICK EVENT LISTNER -->
     <script>
         let btnstyle=document.getElementById('btn');
         btnstyle.style.padding='32px';
@@ -31,6 +35,14 @@
                 document.getElementById('btn').style.backgroundColor="Red";
                 document.getElementById('btn').style.color="White";
             }
+        }
+        let btnstyle2=document.getElementById("btn2");
+        btnstyle2.style.padding="30px";
+        btnstyle2.style.fontSize="20px";
+        btnstyle2.style.borderRadius="20px";
+        function changetext(){
+            document.getElementById("js2").innerText="MY NAME IS ALSO PIKU SARKAR";
+            document.getElementById("js2").style.color="Green";
         }
         /*
         - Click
