@@ -13,10 +13,19 @@
     <!-- ONCLICK EVENT LISTNER -->
     <button id="btn" onclick="maths()">SUBMIT</button>
     <p id="js"></p>
+     <!-- DOUBLECLICK EVENT LISTNER -->
     <h2>DOUBLECLICK EVENT LISTNER</h2>
     <button id="btn2" ondblclick="changetext()">SUBMIT</button>
     <h3 id="js2">MY NAME IS KAPIL SARKAR</h3>
-    <!-- DOUBLECLICK EVENT LISTNER -->
+    <!-- MOUSEENETR EVENT LISTNER -->
+    <h2>MOUSEENTER EVENT LISTNER</h2>
+    <h3 id="js3">HELLO PLEASE VISIT HERE</h3>
+    <!-- MOUSEleave EVENT LISTNER -->
+    <h2>MOUSELEAVE EVENT LISTNER</h2>
+    <h3 id="js4">HELLO PLEASE LEAVE FROM HERE</h3>
+    <!-- MOUSEOVER EVENT LISTNER -->
+    <h2>MOUSEOVER AND MOUSELEAVE EVENT LISTNER</h2>
+    <h3 id="js5">HELLO PLEASE HOVER YOUR MOUSE HERE</h3>
     <script>
         let btnstyle=document.getElementById('btn');
         btnstyle.style.padding='32px';
@@ -44,6 +53,39 @@
             document.getElementById("js2").innerText="MY NAME IS ALSO PIKU SARKAR";
             document.getElementById("js2").style.color="Green";
         }
+//addEventListner(eventname,whomeshouldicall or functionname)
+//MOUSEENTER--
+        document.addEventListener("mouseenter", msenter)
+        function msenter(){
+            document.getElementById("js3").innerText="HELLO WELCOME HERE";
+            document.getElementById("js2").style.color="Green";
+        }
+        //MOUSELEAVE--
+
+        let btn4=document.addEventListener("mouseleave",msleave)
+        function msleave(){
+            document.getElementById("js4").innerText="GET LOST";
+            document.getElementById("js4").style.color="Red";
+            //btn4.document.getElementById("js4").fontSize="64px";
+        }
+
+        //MOUSE HOVER--
+
+       document.addEventListener("mouseover",mshover)
+        function mshover(){
+          document.getElementById("js5").innerText="WELCOME TO MOUSE HOVER";
+           document.getElementById("js5").style.color="Yellow";
+            document.getElementById("js5").style.backgroundColor="Green";
+            //document.getElementById("js5").style.fontSize="64px";
+        }
+        //MOUSE LEAVE--
+        document.addEventListener("mouseleave",msleave)
+        function msleave(){
+            document.getElementById("js5").innerText="WELCOME TO MOUSE LEAVE";
+            document.getElementById("js5").style.color="Red";
+            document.getElementById("js5").style.backgroundColor="Yelloe";
+        }
+
         /*
         - Click
         - dblclick
