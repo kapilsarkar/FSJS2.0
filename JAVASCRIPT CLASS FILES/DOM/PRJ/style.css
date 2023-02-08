@@ -1,0 +1,15 @@
+ body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ #clrbtn{
+    padding: 30px;
+    background-color: #8D3DAF;
+    border: none;
+    border-radius: 30px;
+    font-size: 32px;
+    color: #E8BD0D;
+    
+ }
