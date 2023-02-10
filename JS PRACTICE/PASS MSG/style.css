@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+    background-color: #b8e3c1;
+}
+button{
+    width: fit-content;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #EDC126;
+    border-radius: 5px;
+    background-color: #CAD5E2;
+}
+button:hover{
+    background-color: rgb(2, 2, 2);
+    color: #fff;
+}
+.container{
+    border: 2px solid rgb(10, 9, 9);
+    width: 95%;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message
+{
+    border:2px solid rgb(10, 9, 9);
+
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px 0px rgb(0, 0, 0.5);
+}
+.message input
+{
+    width: 90%;
+    padding: 10px 0;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+    border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.passmsg{
+    text-align: center;
+    font-weight: 900;
+}
+.para2{
+    border-bottom: 2px solid #EDC126;
+}
+.btn{
+    border-radius: 5px 0 0 5px;
+}
+#message-output{
+    text-align: center;
+    text-transform: uppercase;
+}
