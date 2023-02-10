@@ -11,9 +11,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 100px;
 }
 .calculator{
-    background-color: #f8f8f8;
+    /* background-color: #f8f8f8; */
+    background-color: #edc200;
     padding: 25px;
     border-radius: 30px;
     box-shadow: inset 5px 5px 15px #CAD5E2,
@@ -26,11 +28,15 @@ input{
     height: 70px;
     width: 280px;
     background-color: #56040400;
-    box-shadow: inset -6px -5px 15px #fff,
-                inset  5px 5px 15px   rgba(227, 228, 209, 0.897);
+    /* box-shadow: inset -6px -5px 15px #fff,
+                inset  5px 5px 15px   rgba(227, 228, 209, 0.897); */
+                /* box-shadow: inset -6px -5px 15px #ebdddd, inset 5px 5px 15px rgb(205 208 158 / 90%); */
+    box-shadow: inset -6px -5px 15px #909490, inset 5px 5px 15px rgb(60 66 61 / 90%);
     border: none;
     border-radius: 30px;
-    color:rgb(70, 70, 70);
+    /* color:rgb(70, 70, 70); */
+    color: #f8f8f8;
+    font-weight: 900;
     font-size: 50px;
     text-align: end;
     margin: auto;
@@ -42,13 +48,19 @@ button{
     height: 50px;
     width: 50px;
     background-color: #38CC77;
-    box-shadow: -5px -5px -5px #b4f905,
-                 5px 5px 5px rgba(179, 184, 73, 0.897);
+    /* box-shadow: -5px -5px -5px #b4f905,
+                 5px 5px 5px rgba(179, 184, 73, 0.897); */
+
+                 /* box-shadow: inset -6px -5px 15px #fff,
+                 inset  5px 5px 15px   rgba(227, 228, 209, 0.897); */
+    box-shadow: inset -6px -5px 15px #0f5c53, inset 5px 5px 15px rgb(70 29 153 / 90%);
+
     border: none;
     border-radius: 50%;
     color: #f8f8f8;
     font-size: 20px;
     margin: 10px;
+    font-weight: 900;
 }
 .equal{
     width: 120px;
@@ -56,4 +68,12 @@ button{
     background-color: #38CC77;
     box-shadow: -5px -5px -5px #c4ec60,
                  5px 5px 5px rgba(223, 228, 123, 0.897);
+}
+.hd{
+    margin-left: 320px;
+    margin-top: 50px;
+    position: absolute;
+    font-weight: 600;
+   font-family: Arial, Helvetica, sans-serif;
+   
 }
