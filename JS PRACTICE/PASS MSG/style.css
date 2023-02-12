@@ -4,7 +4,7 @@
     overflow-x: hidden;
 }
 body{
-    background-color: #b8e3c1;
+    background-color: #97e08d;
 }
 button{
     width: fit-content;
@@ -12,14 +12,16 @@ button{
     cursor: pointer;
     border: 1px solid #EDC126;
     border-radius: 5px;
-    background-color: #CAD5E2;
+    background-color: #fff;
 }
 button:hover{
-    background-color: rgb(2, 2, 2);
-    color: #fff;
+    /* background-color: rgb(23, 52, 4); */
+    /* color: #fff; */
+    background-color: #fff;
+    color: darkgreen;
 }
 .container{
-    border: 2px solid rgb(10, 9, 9);
+    /* border: 2px solid rgb(10, 9, 9); */
     width: 95%;
     height: 90vh;
     margin: auto;
@@ -29,15 +31,15 @@ button:hover{
 }
 .message
 {
-    border:2px solid rgb(10, 9, 9);
+    border:5px solid rgb(198 20 208);
 
-    background-color: whitesmoke;
+    background-color:#e1ff75;
     border-radius: 5px;
-    width: 500px;
+    width: 700px;
     height: auto;
     margin: auto;
     padding: 0 20px;
-    box-shadow: 0 2px 5px 0px rgb(0, 0, 0.5);
+    box-shadow: 0 5px 9px 2px rgb(54 60 47 / 90%);
 }
 .message input
 {
@@ -51,6 +53,9 @@ button:hover{
 .passmsg{
     text-align: center;
     font-weight: 900;
+    color: #de00de;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42px;
 }
 .para2{
     border-bottom: 2px solid #EDC126;
@@ -61,4 +66,30 @@ button:hover{
 #message-output{
     text-align: center;
     text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.entermsg{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #2e64d0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fas{
+    color:green;
+    /* background-color: #EDC126; */
+}
+#btnsubmit{
+    padding: 10px 32px;
+    border-radius: 10px;
+    background-color: #59d31a;
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
