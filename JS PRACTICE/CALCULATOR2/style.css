@@ -2,9 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #fff;
+    /* background-color: #fff; */
     font-family: sans-serif;
     outline: none;
+}
+body
+{
+    background-color:#c4ec60;
 }
 .container{
     height: 100vh;
@@ -73,7 +77,37 @@ button{
     margin-left: 320px;
     margin-top: 50px;
     position: absolute;
-    font-weight: 600;
+    font-weight: 900;
    font-family: Arial, Helvetica, sans-serif;
+   color: darkviolet;
    
+}
+.icon{
+    background:none;
+    color: red;
+  
+    font-size: 36px;
+    position: relative;
+    top: 32px;
+}
+.iconhead{
+    background: none;
+    width: 20vw;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 36px;
+    right: 18px;
+    font-weight: 900;
+    margin-left: -5px;
+}
+
+.icon2{
+    background:none;
+    color: red;
+    
+    font-size: 36px;
+    position: relative;
+    left: 110px;
+    top: 32px;
 }
