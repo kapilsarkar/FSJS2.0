@@ -14,6 +14,25 @@ let list = document.querySelector("header nav ul");
 list.appendChild(li);
 
 //Removing Socila Footer Icons-
-let footer =document.querySelector("footer ul");
-//footer.style.display = "none";
-footer.style.visibility="hidden";
+//let footer =document.querySelector("footer ul");
+//footer.style.visibility="hidden";
+
+
+//TASK-2
+//Change input placeholder text to "Search My Project"
+
+document.querySelector("input").placeholder = "Search My Project";
+
+
+//TAST-3
+//Change span text and display footer social icons
+
+let newtxt = document.querySelectorAll(".hero-left-section p span");
+newtxt[1].innerText = "an Employee";
+newtxt[2].innerText = "iNeuron Intelligence Pvt Ltd.";
+
+
+//Display footer social icon 
+
+let footer=document.querySelector("footer ul");
+footer.style.visibility = "visible";
