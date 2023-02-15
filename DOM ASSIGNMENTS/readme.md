@@ -59,3 +59,72 @@ footer.style.visibility = "visible";
 
 
 
+**Task 4**
+
+Change hero avtar image t Hitesh Sir's image
+
+![TASKIMG4](./DOM%20Assignment%202.0%201%2C2%2C3/firstAssignmentImage/task4Output.png)
+
+
+**SOLUTION**
+
+let newimg = document.querySelector("img");
+newimg.src = "./hiteshsir.jpg";
+
+
+Change Contact to Projects-
+
+
+let ul = document.querySelector("nav ul");
+ul.lastElementChild.innerHTML = "Projects";
+
+
+**Task 5**
+
+Add "Support Me" Button next to Chant with me button
+
+![TASK5IMG](./DOM%20Assignment%202.0%201%2C2%2C3/firstAssignmentImage/task5Output.png)
+
+
+**SOLUTION**
+
+let newbtn = document.createElement("button");
+
+newbtn.innerHTML = "Support Me";
+
+let newbtn2 = document.querySelector(".hero-right-section-btns");
+
+newbtn2.appendChild(newbtn);
+
+
+# DOM Assignment 2
+
+change all h3 background color and change contact navigation menu to "Projects"
+
+
+**Task 1**
+
+
+ Change all h3 background color and change contact navigation menu to "Projects"
+
+ Change all h3 background color
+
+ let newh3 = document.querySelectorAll("h3");
+for(i=0; i< newh3.length; i++){
+  newh3[i].style.backgroundColor ="#dadaf8";
+}
+
+change contact navigation menu to "Projects"
+
+let newul = document.querySelector("header nav ul");
+newul.lastElementChild.innerHTML ="Projects";
+
+
+
+
+
+
+
+
+
+
