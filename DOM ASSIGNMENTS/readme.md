@@ -206,7 +206,7 @@ document.querySelector(".userMessage").placeholder = "Hello World";
 # DOM Assignment 4
 
 **Task**
-
+Change background color and text color at the bottom of the cards and change character names
 
 ![IMGTASK1](./04_DOM%20Project/04_DOM%20Project/Output/DOM%20P1%20SS.png)
 
@@ -248,6 +248,146 @@ document.querySelectorAll(".stat-value").forEach((e) => {e.style.color = "#fff"}
 # DOM Assignment 5
 
 **Task**
+
+Add "Pro Subscription" button in navbar then add new recipe "Chinese (7)" in recipe list then change h5 and p tags color and add 6th card.
+
+**Solution**
+
+![IMGITASK](./05_DOM%20Project/05_DOM%20Project/Output/DOM%20P2%20SS.png)
+
+
+Add "Pro Subscription" button-
+
+let newbtn = document.createElement("a");
+
+newbtn.classList.add("btn");
+
+newbtn.innerHTML ="Pro Subscription";
+
+document.querySelector(".btn").parentElement.appendChild(newbtn);
+
+
+Adding new recipe "Chinese (7)"-
+
+let element = document.createElement("a");
+
+element.classList.add("tags-container");
+
+element.innerHTML = "Chinese(7)";
+
+document.querySelector(".tags-container div").appendChild(element);
+
+
+Change h5 and p tags color-
+
+document.querySelectorAll(".recipe-name").forEach((e) => {e.style.color = "#8A2BE2" });
+
+
+document.querySelectorAll(".recipe-disp").forEach((e) => {e.style.color = "#8A2BE2" });
+
+
+Adding 6th card-
+
+let card = document.querySelector(".recipe-gallery");
+
+let newcard = document.createElement("div");
+
+newcard.classList.add("card");
+
+card.appendChild(newcard);
+
+
+
+let selectcard = document.querySelector(".card:last-child");
+
+let cardimg = document.createElement("img");
+
+cardimg.src = "./img/recipe-3.jpeg";
+
+cardimg.classList.add("recipe-img");
+
+selectcard.appendChild(cardimg);
+
+
+let heading = document.createElement("h5");
+
+heading.textContent ="New Tomato Soup";
+
+heading.style.color ="#8A2BE2";
+
+heading.classList.add("recipe-name");
+
+selectcard.appendChild(heading);
+
+
+let paragraph =document.createElement("p");
+
+paragraph.textContent = "Prep : 20min | Cook :50min";
+
+paragraph.style.color= "#8A2BE2";
+
+paragraph.classList.add("recipe-disp");
+
+selectcard.appendChild(paragraph);
+
+
+# DOM Assignment 6
+
+
+Add Ineuron logo then change price to $10/month and add "linkedin" font awesome icon at end of the footer
+
+
+Add Ineuron logo
+
+
+**Solution**
+
+**Task-1**
+
+Add Ineuron logo
+
+
+
+![TASK1IMG](./06_DOM%20Project/06_DOM%20Project/Output/DOM%20P3%20SS-1.png)
+
+
+**Solution**
+
+
+document.querySelector(".logo").src ="./assets/ineuron-logo.png";
+
+
+**Task-2**
+
+Change price to $10/month
+
+
+![TASK1IMG](./06_DOM%20Project/06_DOM%20Project/Output/DOM%20P3%20SS-1.png)
+
+
+**Solution**
+
+
+document.querySelector(".app_price > span").innerHTML ="$10";
+
+
+**Task-3**
+
+Add "linkedin" font awesome icon at end of the footer
+
+![TASKIMG](./06_DOM%20Project/06_DOM%20Project/Output/DOM%20P3%20SS-2.png)
+
+let newicon = document.querySelector(".footer_social");
+
+let div = document.createElement("div");
+
+div.innerHTML = '<i class="fa-brands fa-linkedin"></i>';
+
+newicon.appendChild(div);
+
+
+
+
 
 
 
