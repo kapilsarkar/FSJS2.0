@@ -114,6 +114,7 @@ change all h3 background color and change contact navigation menu to "Projects"
  Change all h3 background color
 
  let newh3 = document.querySelectorAll("h3");
+
 for(i=0; i< newh3.length; i++){
   newh3[i].style.backgroundColor ="#dadaf8";
 }
@@ -121,6 +122,7 @@ for(i=0; i< newh3.length; i++){
 change contact navigation menu to "Projects"
 
 let newul = document.querySelector("header nav ul");
+
 newul.lastElementChild.innerHTML ="Projects";
 
 **Task 2**
@@ -132,13 +134,17 @@ Add h3 with new name "Skills" and also add new paragraph
 **Solution**
 
 let element = document.querySelector(".accordian-wrapper");
+
  let newdiv = document.createElement("div");
+
  newdiv.classList.add("accordian");
+
  element.appendChild(newdiv);
 
  Add new h3 "Skills"
 
  let new2h3 = document.createElement("h3");
+
  new2h3.innerHTML = "Skills";
 
  new2h3.style.backgroundColor = "#dadaf8";
@@ -148,7 +154,9 @@ let element = document.querySelector(".accordian-wrapper");
   Add new paragraph
 
   let paragraph = document.createElement("p");
+
  paragraph.innerHTML = "I posses a very good command over the Full Stack Development technologies like MERN which can be seen in my work over the Github."
+
  newdiv.appendChild(paragraph);
 
  Add click function on new h3 
@@ -181,14 +189,69 @@ let element = document.querySelector(".accordian-wrapper");
 
 
  document.querySelector(".enterName").placeholder = "FSJS2.0";
+
 document.querySelector(".enterMail").placeholder = "fsjs@ineuron.ai";
+
 document.querySelector(".enterMessage").placeholder = "Hello World";
 
 User Input Board-
 
 document.querySelector(".userName").placeholder = "FSJS2.0";
+
 document.querySelector(".userEmail").placeholder = "fsjs@ineuron.ai";
+
 document.querySelector(".userMessage").placeholder = "Hello World";
+
+
+# DOM Assignment 4
+
+**Task**
+
+
+![IMGTASK1](./04_DOM%20Project/04_DOM%20Project/Output/DOM%20P1%20SS.png)
+
+
+**Solution**
+
+Change background color and text color at the bottom of the cards and change character names
+
+
+Change character names -
+
+document.querySelector(".clash-card__level--archer").nextElementSibling.innerHTML = "The Archer";
+
+document.querySelector(".clash-card__level--goblin").nextElementSibling.innerHTML = "The Goblin";
+
+
+Change background color at the bottom of the cards-
+
+document.querySelector(".clash-card__unit-stats--barbarian").style.backgroundColor = "#eb9a3d";
+
+document.querySelector(".clash-card__unit-stats--archer").style.backgroundColor = "#ed5486";
+
+document.querySelector(".clash-card__unit-stats--giant").style.backgroundColor = "#f58f1f";
+
+document.querySelector(".clash-card__unit-stats--goblin").style.backgroundColor = "#80ba35";
+
+document.querySelector(".clash-card__unit-stats--wizard").style.backgroundColor = "#50acfd";
+
+
+Change text color at the bottom of the cards-
+
+document.querySelectorAll(".clash-card__unit-stats").forEach((e) => {e.style.color = "#fff"});
+
+document.querySelectorAll(".stat").forEach((e) => {e.style.color ="#fff"});
+
+document.querySelectorAll(".stat-value").forEach((e) => {e.style.color = "#fff"});
+
+
+# DOM Assignment 5
+
+**Task**
+
+
+
+
 
 
 
