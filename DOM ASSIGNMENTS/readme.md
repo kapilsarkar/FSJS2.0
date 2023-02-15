@@ -104,6 +104,10 @@ change all h3 background color and change contact navigation menu to "Projects"
 
 **Task 1**
 
+ ![TASK1IMG](./DOM%20Assignment%202.0%201%2C2%2C3/secondAssignmentImage/task1Output.png)
+
+**SOLUTION**
+
 
  Change all h3 background color and change contact navigation menu to "Projects"
 
@@ -118,6 +122,73 @@ change contact navigation menu to "Projects"
 
 let newul = document.querySelector("header nav ul");
 newul.lastElementChild.innerHTML ="Projects";
+
+**Task 2**
+
+Add h3 with new name "Skills" and also add new paragraph
+
+![TASKIMG2](./DOM%20Assignment%202.0%201%2C2%2C3/secondAssignmentImage/task2Output.png)
+
+**Solution**
+
+let element = document.querySelector(".accordian-wrapper");
+ let newdiv = document.createElement("div");
+ newdiv.classList.add("accordian");
+ element.appendChild(newdiv);
+
+ Add new h3 "Skills"
+
+ let new2h3 = document.createElement("h3");
+ new2h3.innerHTML = "Skills";
+
+ new2h3.style.backgroundColor = "#dadaf8";
+
+ newdiv.appendChild(new2h3);
+
+  Add new paragraph
+
+  let paragraph = document.createElement("p");
+ paragraph.innerHTML = "I posses a very good command over the Full Stack Development technologies like MERN which can be seen in my work over the Github."
+ newdiv.appendChild(paragraph);
+
+ Add click function on new h3 
+
+ let lastaccordian = document.querySelectorAll(".accordian:last-child h3");
+
+ lastaccordian.forEach((element) => {
+  element.addEventListener("click", () => {
+    let para =element.nextElementSibling;
+    if(para.style.display === "block"){
+      para.style.display = "none";
+    } else {
+      para.style.display = "block";
+    }
+  });
+
+ });
+
+ # DOM Assignment 3
+
+ **Task**
+
+ Change placeholder in every input boxes
+
+ ![IMG2](./DOM%20Assignment%202.0%201%2C2%2C3/thirdAssignmentImage/task1Output.png)
+
+ **Solution**
+
+ User Output Board-
+
+
+ document.querySelector(".enterName").placeholder = "FSJS2.0";
+document.querySelector(".enterMail").placeholder = "fsjs@ineuron.ai";
+document.querySelector(".enterMessage").placeholder = "Hello World";
+
+User Input Board-
+
+document.querySelector(".userName").placeholder = "FSJS2.0";
+document.querySelector(".userEmail").placeholder = "fsjs@ineuron.ai";
+document.querySelector(".userMessage").placeholder = "Hello World";
 
 
 
