@@ -95,7 +95,7 @@ TOOLS USED : `HTML` ,`CSS`
 
 
 
-**PROJECT 07**
+**PROJECT 07 oON CREDIT CARD LANDING PAGE**
 
   :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/HTML-CSS-EXTRA-PROJECTS)
 
@@ -109,12 +109,7 @@ TOOLS USED : `HTML` ,`CSS`
 
 
 
-
-
-
-
-
-**PROJECT 08**
+**PROJECT 08 ON HOSTING SITE LANDING PAGE**
 
   :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/HOSTING-SITE)
 
@@ -128,11 +123,7 @@ TOOLS USED : `HTML` ,`CSS`
 
 
 
-
-
-
-
-**PROJECT 09**
+**PROJECT 09 ON GAMING SITE LANDING PAGE**
 
   :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/GAMING)
 
@@ -145,11 +136,7 @@ TOOLS USED : `HTML` ,`CSS`
 TOOLS USED : `HTML` ,`CSS`
 
 
-
-
-
-
-**PROJECT 10**
+**PROJECT 10 ON REAL ESTATE PAGE**
 
   :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/REAL-ESTATE)
 
@@ -165,7 +152,7 @@ TOOLS USED : `HTML` ,`CSS`
 
 
 
-**PROJECT 11**
+**PROJECT 11 ON BEATS LANDING PAGE**
 
   :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/BEATS)
 
@@ -182,7 +169,7 @@ TOOLS USED : `HTML` ,`CSS`
 
 
 
-**PROJECT 12**
+**PROJECT 12 ON DATA ANALYTICS LANDING PAGE**
 
   :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/HTML%20CSS%20PROJECTS/DATA%20ANALYTICS)
 
