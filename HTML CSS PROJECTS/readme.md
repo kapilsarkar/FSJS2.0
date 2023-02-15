@@ -108,9 +108,7 @@ TOOLS USED : `HTML` ,`CSS`
 TOOLS USED : `HTML` ,`CSS`
 
 
-**OUTPUT :**
 
-![IMG1](./CREDIT%20CARD/Credit%20card%20landing%20page.png)
 
 
 
@@ -129,9 +127,7 @@ TOOLS USED : `HTML` ,`CSS`
 TOOLS USED : `HTML` ,`CSS`
 
 
-**OUTPUT :**
 
-![IMG1](./HOSTING%20SITE/Hosting%20Landing%20Page.png)
 
 
 
@@ -149,9 +145,7 @@ TOOLS USED : `HTML` ,`CSS`
 TOOLS USED : `HTML` ,`CSS`
 
 
-**OUTPUT :**
 
-![IMG1](./GAMING/Gaming%20Landing%20Page.png)
 
 
 
@@ -168,9 +162,7 @@ TOOLS USED : `HTML` ,`CSS`
 TOOLS USED : `HTML` ,`CSS`
 
 
-**OUTPUT :**
 
-![IMG1](./REAL%20ESTATE/Real%20Estate%20-%20Desktop.png)
 
 
 **PROJECT 11**
@@ -186,9 +178,7 @@ TOOLS USED : `HTML` ,`CSS`
 TOOLS USED : `HTML` ,`CSS`
 
 
-**OUTPUT :**
 
-![IMG1](./BEATS/Main%20Landing%20page.png)
 
 
 
@@ -205,9 +195,7 @@ TOOLS USED : `HTML` ,`CSS`
 TOOLS USED : `HTML` ,`CSS`
 
 
-**OUTPUT :**
 
-![IMG1](./DATA%20ANALYTICS/Data%20Analytics%20Landing%20page.png)
 
 
 
