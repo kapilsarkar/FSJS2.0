@@ -539,6 +539,58 @@ togglemenu.addEventListener("click", function(){
 })
 
 
+# DOM Assignment 9
+
+## Change h1 color and change button color when mouse hover-
+
+
+**Task 1**
+
+
+### Change h1 color-
+
+
+![TASK9IMG1](./DOM%20P9/DOM%20P9/ass9.1-after.png)
+
+
+
+**Solution**
+
+let headcolor = document.querySelector(".caption .title");
+
+headcolor.style.color ="#dc143c";
+
+
+**Task 2**
+
+### Change button color when mouse hover-
+
+![TASKIMG2](./DOM%20P9/DOM%20P9/ass9.2-after.png)
+
+
+**Solution**
+
+
+let btnchange = document.querySelector(".add-to-cart");
+
+btnchange.addEventListener("mouseover",changecolor);
+
+function changecolor()
+{
+    btnchange.style.backgroundColor = "#dc143c";
+}
+
+btnchange.addEventListener("mouseout",() => {
+    btnchange.style.backgroundColor ="#1C8D73";
+});
+
+
+
+
+
+
+
+
 
 
 
