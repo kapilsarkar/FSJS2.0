@@ -7,20 +7,20 @@ Change Contact navigation menu to "Projects" name then add new navigation menu a
 
 **SOLUTION**
 
-Change Contact to Projects-
+## Change Contact to Projects-
 
 
 let ul = document.querySelector("nav ul");
 ul.lastElementChild.innerHTML = "Projects";
 
-Adding Hire Me in navigation menu--
+## Adding Hire Me in navigation menu--
 
 let li = document.createElement("li");
 li.innerHTML ="<a>Hire Me</a>";
 let list = document.querySelector("header nav ul");
 list.appendChild(li);
 
-Removing Social Footer Icons-
+## Removing Social Footer Icons-
 
 
 let footer =document.querySelector("footer ul");
@@ -28,7 +28,7 @@ footer.style.visibility="hidden";
 
 **TASK 2**
 
-Change input placeholder text to "Search My Project"
+## Change input placeholder text to "Search My Project"-
 
 ![TASKIMG2](./DOM%20Assignment%202.0%201%2C2%2C3/firstAssignmentImage/task2Output.png)
 
@@ -39,7 +39,7 @@ document.querySelector("input").placeholder = "Search My Project";
 
 **Task 3**
 
-Change span text and display footer social icons
+## Change span text and display footer social icons-
 
 ![TASKIMG3](./DOM%20Assignment%202.0%201%2C2%2C3/firstAssignmentImage/task3Output.png)
 
@@ -61,7 +61,7 @@ footer.style.visibility = "visible";
 
 **Task 4**
 
-Change hero avtar image t Hitesh Sir's image
+## Change hero avtar image t Hitesh Sir's image-
 
 ![TASKIMG4](./DOM%20Assignment%202.0%201%2C2%2C3/firstAssignmentImage/task4Output.png)
 
@@ -72,7 +72,7 @@ let newimg = document.querySelector("img");
 newimg.src = "./hiteshsir.jpg";
 
 
-Change Contact to Projects-
+## Change Contact to Projects-
 
 
 let ul = document.querySelector("nav ul");
@@ -81,7 +81,7 @@ ul.lastElementChild.innerHTML = "Projects";
 
 **Task 5**
 
-Add "Support Me" Button next to Chant with me button
+## Add "Support Me" Button next to Chant with me button-
 
 ![TASK5IMG](./DOM%20Assignment%202.0%201%2C2%2C3/firstAssignmentImage/task5Output.png)
 
@@ -99,7 +99,7 @@ newbtn2.appendChild(newbtn);
 
 # DOM Assignment 2
 
-change all h3 background color and change contact navigation menu to "Projects"
+## Change all h3 background color and change contact navigation menu to "Projects"-
 
 
 **Task 1**
@@ -109,9 +109,9 @@ change all h3 background color and change contact navigation menu to "Projects"
 **SOLUTION**
 
 
- Change all h3 background color and change contact navigation menu to "Projects"
+ ## Change all h3 background color and change contact navigation menu to "Projects"-
 
- Change all h3 background color
+ ## Change all h3 background color-
 
  let newh3 = document.querySelectorAll("h3");
 
@@ -119,7 +119,7 @@ for(i=0; i< newh3.length; i++){
   newh3[i].style.backgroundColor ="#dadaf8";
 }
 
-change contact navigation menu to "Projects"
+## Change contact navigation menu to "Projects"-
 
 let newul = document.querySelector("header nav ul");
 
@@ -127,7 +127,7 @@ newul.lastElementChild.innerHTML ="Projects";
 
 **Task 2**
 
-Add h3 with new name "Skills" and also add new paragraph
+## Add h3 with new name "Skills" and also add new paragraph-
 
 ![TASKIMG2](./DOM%20Assignment%202.0%201%2C2%2C3/secondAssignmentImage/task2Output.png)
 
@@ -141,7 +141,7 @@ let element = document.querySelector(".accordian-wrapper");
 
  element.appendChild(newdiv);
 
- Add new h3 "Skills"
+ ## Add new h3 "Skills"-
 
  let new2h3 = document.createElement("h3");
 
@@ -151,7 +151,7 @@ let element = document.querySelector(".accordian-wrapper");
 
  newdiv.appendChild(new2h3);
 
-  Add new paragraph
+ ## Add new paragraph-
 
   let paragraph = document.createElement("p");
 
@@ -159,7 +159,7 @@ let element = document.querySelector(".accordian-wrapper");
 
  newdiv.appendChild(paragraph);
 
- Add click function on new h3 
+ ## Add click function on new h3 -
 
  let lastaccordian = document.querySelectorAll(".accordian:last-child h3");
 
@@ -179,13 +179,13 @@ let element = document.querySelector(".accordian-wrapper");
 
  **Task**
 
- Change placeholder in every input boxes
+ ## Change placeholder in every input boxes-
 
  ![IMG2](./DOM%20Assignment%202.0%201%2C2%2C3/thirdAssignmentImage/task1Output.png)
 
  **Solution**
 
- User Output Board-
+ ## User Output Board-
 
 
  document.querySelector(".enterName").placeholder = "FSJS2.0";
@@ -194,7 +194,7 @@ document.querySelector(".enterMail").placeholder = "fsjs@ineuron.ai";
 
 document.querySelector(".enterMessage").placeholder = "Hello World";
 
-User Input Board-
+## User Input Board-
 
 document.querySelector(".userName").placeholder = "FSJS2.0";
 
@@ -206,24 +206,24 @@ document.querySelector(".userMessage").placeholder = "Hello World";
 # DOM Assignment 4
 
 **Task**
-Change background color and text color at the bottom of the cards and change character names
+## Change background color and text color at the bottom of the cards and change character names-
 
 ![IMGTASK1](./04_DOM%20Project/04_DOM%20Project/Output/DOM%20P1%20SS.png)
 
 
 **Solution**
 
-Change background color and text color at the bottom of the cards and change character names
+## Change background color and text color at the bottom of the cards and change character names-
 
 
-Change character names -
+## Change character names -
 
 document.querySelector(".clash-card__level--archer").nextElementSibling.innerHTML = "The Archer";
 
 document.querySelector(".clash-card__level--goblin").nextElementSibling.innerHTML = "The Goblin";
 
 
-Change background color at the bottom of the cards-
+## Change background color at the bottom of the cards-
 
 document.querySelector(".clash-card__unit-stats--barbarian").style.backgroundColor = "#eb9a3d";
 
@@ -236,7 +236,7 @@ document.querySelector(".clash-card__unit-stats--goblin").style.backgroundColor 
 document.querySelector(".clash-card__unit-stats--wizard").style.backgroundColor = "#50acfd";
 
 
-Change text color at the bottom of the cards-
+## Change text color at the bottom of the cards-
 
 document.querySelectorAll(".clash-card__unit-stats").forEach((e) => {e.style.color = "#fff"});
 
@@ -249,14 +249,14 @@ document.querySelectorAll(".stat-value").forEach((e) => {e.style.color = "#fff"}
 
 **Task**
 
-Add "Pro Subscription" button in navbar then add new recipe "Chinese (7)" in recipe list then change h5 and p tags color and add 6th card.
+## Add "Pro Subscription" button in navbar then add new recipe "Chinese (7)" in recipe list then change h5 and p tags color and add 6th card.
 
 **Solution**
 
 ![IMGITASK](./05_DOM%20Project/05_DOM%20Project/Output/DOM%20P2%20SS.png)
 
 
-Add "Pro Subscription" button-
+## Add "Pro Subscription" button-
 
 let newbtn = document.createElement("a");
 
@@ -267,7 +267,7 @@ newbtn.innerHTML ="Pro Subscription";
 document.querySelector(".btn").parentElement.appendChild(newbtn);
 
 
-Adding new recipe "Chinese (7)"-
+## Adding new recipe "Chinese (7)"-
 
 let element = document.createElement("a");
 
@@ -278,7 +278,7 @@ element.innerHTML = "Chinese(7)";
 document.querySelector(".tags-container div").appendChild(element);
 
 
-Change h5 and p tags color-
+## Change h5 and p tags color-
 
 document.querySelectorAll(".recipe-name").forEach((e) => {e.style.color = "#8A2BE2" });
 
@@ -286,7 +286,7 @@ document.querySelectorAll(".recipe-name").forEach((e) => {e.style.color = "#8A2B
 document.querySelectorAll(".recipe-disp").forEach((e) => {e.style.color = "#8A2BE2" });
 
 
-Adding 6th card-
+## Adding 6th card-
 
 let card = document.querySelector(".recipe-gallery");
 
@@ -334,17 +334,17 @@ selectcard.appendChild(paragraph);
 # DOM Assignment 6
 
 
-Add Ineuron logo then change price to $10/month and add "linkedin" font awesome icon at end of the footer
+## Add Ineuron logo then change price to $10/month and add "linkedin" font awesome icon at end of the footer-
 
 
-Add Ineuron logo
+ ## Add Ineuron logo--
 
 
 **Solution**
 
 **Task-1**
 
-Add Ineuron logo
+## Add Ineuron logo-
 
 
 
@@ -359,7 +359,7 @@ document.querySelector(".logo").src ="./assets/ineuron-logo.png";
 
 **Task-2**
 
-Change price to $10/month
+## Change price to $10/month-
 
 
 ![TASK1IMG](./06_DOM%20Project/06_DOM%20Project/Output/DOM%20P3%20SS-1.png)
@@ -373,7 +373,7 @@ document.querySelector(".app_price > span").innerHTML ="$10";
 
 **Task-3**
 
-Add "linkedin" font awesome icon at end of the footer
+## Add "linkedin" font awesome icon at end of the footer-
 
 ![TASKIMG](./06_DOM%20Project/06_DOM%20Project/Output/DOM%20P3%20SS-2.png)
 
@@ -384,6 +384,71 @@ let div = document.createElement("div");
 div.innerHTML = '<i class="fa-brands fa-linkedin"></i>';
 
 newicon.appendChild(div);
+
+
+# DOM Assignment 7
+
+
+## Remove the languages that have 2.0 in their name Use Javscript to write something in the input box and submit the form. This should refresh the page and languages in the left card should come back.-
+
+
+**Task 1**
+
+
+## Remove the languages that have 2.0 in their name-
+
+
+![TASK71](./DOM%20P7/DOM%20P7/ass7.1-after.png)
+
+
+**Solution**
+
+
+let courses = document.querySelectorAll(".main__languages a");
+for(let i=0; i< courses.length; i++)
+{
+    if(courses[i].innerHTML.includes("2.0")){
+        courses[i].style.display = "none";
+    }
+}
+
+
+**Task 2**
+
+## Use Javscript to write something in the input box and submit the form. This should refresh the page and languages in the left card should come back.-
+
+
+![TASK7-2](./DOM%20P7/DOM%20P7/ass7.2-after.png)
+
+
+**Solution**
+
+
+let inputtxt = document.querySelector(".main__form-input");
+
+inputtxt.disabled = false;
+
+
+let submitbtn = document.querySelector(".main__form-btn");
+
+submitbtn.disabled = false;
+
+
+submitbtn.addEventListener("click", (refresh) => {
+
+    for(let j=0; j< courses.length; j++) {
+        if(courses[j].innerHTML.includes("2.0")){
+            courses[j].style.display = "inline";
+        }
+    }
+});
+
+
+
+
+
+
+
 
 
 
