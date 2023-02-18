@@ -87,3 +87,45 @@
 // }).catch(failureCallback);
 
 //The code just above shows how multiple callbacks can be chained one after another. Chaining is one of the best features of Promises.
+
+//Creating and Using a Promise-
+
+//Let’s take a new function as given below-
+
+// function times(){
+//   setTimeout(function(){
+//     console.log("Executed");
+//   },3000);
+// }
+//Now if we want to return something from times function, we have two options:
+
+//Use a callback function
+//Use promise
+
+//The disadvantage of the first approach is that it leads to a callback hell problem
+
+//Now, let’s see how this issue can be solved using promises. To create a promise we use the below given syntax
+
+//new Promise((resolve, reject)=>{
+//   if(success){
+//     resolve("success");
+//   } else {
+//     reject("failed");
+//   }
+// });
+
+//Example-
+
+// function times(){
+//   return new Promise((resolve,reject) => {
+//     setTimeout(() => {
+//       resolve("TimeOut");
+//     }, 3000);
+//   });
+// }
+//Promise provides three methods, to consume promise and handle the result
+
+//then: if promise results in success, then method callback is called
+//catch: if promise fails, catch method callback is called
+//finally: method callback is called when the promise is fulfilled either in success or failure. Can be used for common tasks such as hiding the loader etc.
+
