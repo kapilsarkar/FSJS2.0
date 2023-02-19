@@ -30,7 +30,11 @@
 
 ## WEATHER APP---
 
-### NOTE COMPLETED : WORK IN PROGRESS
+![IMG5](./WEATHER%20APP/Screenshot%20(265).png)
+
+:file_folder: [FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JS%20PRACTICE/WEATHER%20APP)
+
+
 
 
 
