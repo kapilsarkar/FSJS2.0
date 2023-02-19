@@ -5,18 +5,23 @@
 }
 body{
     font-family:Arial, Helvetica, sans-serif;
-    background-color: #CAD5E2;
+    /* background-color: #e8fb7742; */
     display: flex;
     justify-content: center;
+    background: url(./weather2.jpg);
+    background-size: 100% 100%;
+    
 }
 .container{
     width: 50%;
     margin-top: 5rem;
     flex-direction: column;
     align-items: center;
-    background-color: #35BDD0;
-    box-shadow:  5px 5px 5px 2px rgba(49, 151, 149, 0.5);
+    /* background-color: #0dc2dbab; */
+    background-color: #0dc2db2b;
+    box-shadow:  5px 5px 17px 7px rgb(115 145 144);
     padding: 0 1rem;
+    margin-right: 50px;
 }
 .search{
     margin: 2rem 0;
@@ -32,6 +37,7 @@ body{
     font-weight: 600;
     cursor: pointer;
     outline: none;
+    padding: 10px 20px;
 }
 .search_button{
     width: 100%;
@@ -74,10 +80,12 @@ body{
     font-size: 1.2rem;
     font-weight: 600;
     margin-bottom: 1rem;
+    
 }
 .weather_icon{
     display: flex;
     justify-content: center;
+   
 }
 .error{
     font-size: 1.2rem;
@@ -90,3 +98,14 @@ body{
 /* .weather{
     display: none;
 } */
+
+.whead{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ee0d0d;
+    background-color: #ffeb3b;
+}

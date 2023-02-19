@@ -28,12 +28,13 @@ const apiCall = async () => {
 			return;
 		}
 
-		temp.innerHTML = data.current.temp_c + "  &#8451";
-		city.innerText =  data.location.name;
+		temp.innerHTML = "  The Current Temperature is : "  + data.current.temp_c + "  &#8451";
+		city.innerText = "Current Location is :  " +  data.location.name;
 
-		description.innerText = data.current.condition.text;
+		description.innerText ="Current Weather Condition is :  " +  data.current.condition.text;
 
 		weatherIcon.src = (data.current.condition.icon);
+	
 
 		weather.style.display="block";
 		error.style.display ="none";
