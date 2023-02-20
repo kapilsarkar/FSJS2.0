@@ -80,15 +80,36 @@
 1. `PROTOTYOES IN JAVASCRIPT` :file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/PROTOTYPES)
 
 1. `DOM MANIPULATION IN JAVASCRIPT` :file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/DOM)
+
+
+1. `HIGHER ORDER FUNCTION IN JAVASCRIPT`
+:file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/HOF)
+
+
+1. `SPREAD AND REST IN JAVASCRIPT`
+:file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/SPREAD%20AND%20REST)
+
+
+1. `SET TIME OUT AND SET TIME INTERVAL IN JAVASCRIPT`:file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/SET%20TIME%20OUT)
+
+
+1. `PROMISES IN JAVASCRIPT`:file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/PROMISES)
+
+
+1. `TRY CATCH THROW IN JAVASCRIPT`:file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/TRY%20CATCH%20THROW)
+
  
  ### :chart: JAVASCRIPT ASSIGNMENT :
 
  1. `JAVASCRIPT ASSIGNMENT OF 30 QUESTIONS` :file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20ASSIGNMENTS)
 
 
+ 1. `DOM ASSIGNMENTS OF 9 QUESTIONS` :file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/DOM%20ASSIGNMENTS)
+
+
  ### :chart: JAVASCRIPT PRACTICE : 
  
- :file_folder:[FOLDER LINK]()
+ `VANILLA JAVASCRIPT PROJECTS`:file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JS%20PRACTICE)
 
 ![IMG3](https://img.shields.io/badge/HTML%20AND%20CSS-PROJECTS-brightgreen)
 
