@@ -108,13 +108,19 @@
 
 
  ### :chart: JAVASCRIPT PRACTICE : 
+
+ :butter::butter::butter::butter::butter::butter::butter::butter::butter:
  
  `VANILLA JAVASCRIPT PROJECTS`:file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JS%20PRACTICE)
 
 ![IMG3](https://img.shields.io/badge/HTML%20AND%20CSS-PROJECTS-brightgreen)
 
 ### 💻 LIST OF PROJECTS :
+
+
 :star2::star2::star2::star2::star2::star2:
+
+
 1. `PROJECT-1` :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/HTML_CSS_PROJECTS_SET01/tree/main/FSJS%202.0%20Project%2001)
 
 1. `PROJECT-2`:file_folder: [FOLDER LINK](https://github.com/kapilsarkar/HTML_CSS_PROJECTS_SET01/tree/main/FSJS%202.0%20Project%2002)
