@@ -35,6 +35,13 @@
 :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JS%20PRACTICE/WEATHER%20APP)
 
 
+## MOVIE SERACH APP---
+
+![IMG6](./MOVIE%20APP/Screenshot%20(273).png)
+
+
+:file_folder: [FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JS%20PRACTICE/MOVIE%20APP)
+
 
 
 
