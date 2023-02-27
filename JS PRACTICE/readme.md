@@ -41,6 +41,8 @@
 
 
 :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JS%20PRACTICE/MOVIE%20APP)
+:globe_with_meridians:[LIVE LINK](https://ksmovie2.vercel.app/)
+
 
 
 
