@@ -5,9 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REACT WITH CDN</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <h1>REACT WITH CDN</h1>
+
+        <div class="root"></div>
+    <!-- SCRUPT FOR REACT CDN -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <!-- SCRIPT FOR REACT CDN DOM -->
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- SCRIPT FOR INCLUDING BABBLE -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type=text/babel>
+        // REACT IS COMPONENT BASED HERE HEADER MAIN ANS FOOTER ARE THE COMPONETS  AND ALL COMPONENTS NAME SHOULD BE IN UPPERCASE
+        const header = ( <header className="headpart">
+            <h1>HELOO MY NAME IS KAPIL SARKAR</h1>
+
+                <h2>Welcome to React First Session</h2>
+                <p>This is Your Header Part-----</p>
+            </header>);
+       
+
+            const main = (<main className="mainpart">
+                    <h2>This is your Main Part 1-----</h2>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, doloribus!</p> 
+
+                         <h2>This is your Main Part 2-----</h2>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, doloribus!</p>
+                         
+                        <h2>This is your Main Part 3-----</h2>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, doloribus!</p>
+                </main>); 
+
+                const footer = ( <footer className="footerpart">
+
+                <h3>This is your Footer Part-----</h3>
+                <p>Copyright @2023 Kapil Sarkar</p>
+            </footer>);
+
+            // To include JSX element / Javascript expression inside another Element we use {}
+        
+        const where = document.querySelector(".root");
+            //HERE THE VARIABLE APP REPRESENTS THE WHOLE WEB PAGE
+
+            //INSIDE REACT IF TWO CURLY BRACES ARE THERE MEANS--- {{}}
+            //THE FIRST {} IS FOR INSERTING JSX EXPRESSION
+
+            //THE SECOND {} IS FOR INSERTING KEY VALUE PAIR
+        const app = (<div>
+
+                {header} {main}  {main}  {main}  {main}  {main}  {footer}
+            </div>);
+        ReactDOM.render(app,where);
+    
+    </script>
 </body>
 </html>
