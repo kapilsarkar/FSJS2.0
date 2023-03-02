@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Nunito,sans-serif;
+}
+.title{
+    font-weight: 900;
+}
+.header-container{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    padding-inline: 24px;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin-inline: auto;
+    
+    
+}
