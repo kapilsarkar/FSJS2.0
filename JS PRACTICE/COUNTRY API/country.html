@@ -5,16 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <title>COUNTRY API</title>
+    <title>Country</title>
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./country.css">
     <link rel="stylesheet" href="./style.css">
-    <!-- <script src=
-"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
-    </script> -->
 </head>
 <body>
-    <script src="./script.js" defer></script>
+    <h1>Country</h1>
+    <script src="./country.js" defer></script>
     <header class="header-container">
         <div class="header-content">
             <h2 class="title">Where in the World ?</h2>
@@ -22,12 +21,24 @@
         </div>
         
     </header>
-
-
     <main>
-        <div class="countries-container"></div>
-
-        
+        <a href="#" class="back-button"><i class="fa-solid fa-arrow-left"></i>&nbsp;&nbsp; Back</a>
+        <div class="country-details">
+            <img src="https://flagcdn.com/tm.svg" alt="countryflag">
+            <div class="details-text-container">
+                <h1>Iceland</h1>
+                <div class="details-text"> 
+                    <p><b>Native Name: </b>Iceland</p>
+                    <p><b>Population: </b>9955666</p>
+                    <p><b>Region: </b>Iceland</p>
+                    <p><b>Sub Region: </b>Iceland</p>
+                    <p><b>Capital: </b>Delhi</p>
+                    <p><b>Top Level Domain: </b>be</p>
+                    <p><b>Currencies: </b>Euro</p>
+                    <p><b>Languages: </b>Dutch, French</p>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
 </html>

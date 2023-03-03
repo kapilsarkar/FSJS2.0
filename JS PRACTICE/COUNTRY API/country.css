@@ -1,0 +1,23 @@
+.back-button{
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.2);
+    padding: 6px 24px;
+    border-radius: 5px;
+}
+
+.country-details{
+    display: flex;
+    align-items: center;
+    gap:64px;
+}
+.country-details img {
+    width: 500px;
+}
+
+.details-text{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.details-text p {
+    margin: 0;
+}
