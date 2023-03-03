@@ -11,34 +11,43 @@
     <link rel="stylesheet" href="./country.css">
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body class="dark">
     <h1>Country</h1>
     <script src="./country.js" defer></script>
     <header class="header-container">
         <div class="header-content">
-            <h2 class="title">Where in the World ?</h2>
-            <p><i class="fa-regular fa-moon"></i>&nbsp; &nbsp; Dark Mode</p>
+            <h2 class="title"><a href="/">Where in the World ?</a></h2>
+            <p class="theme-changer" ><i class="fa-regular fa-moon"></i>&nbsp; &nbsp; Dark Mode</p>
         </div>
         
     </header>
     <main>
-        <a href="#" class="back-button"><i class="fa-solid fa-arrow-left"></i>&nbsp;&nbsp; Back</a>
-        <div class="country-details">
-            <img src="https://flagcdn.com/tm.svg" alt="countryflag">
-            <div class="details-text-container">
-                <h1>Iceland</h1>
-                <div class="details-text"> 
-                    <p><b>Native Name: </b>Iceland</p>
-                    <p><b>Population: </b>9955666</p>
-                    <p><b>Region: </b>Iceland</p>
-                    <p><b>Sub Region: </b>Iceland</p>
-                    <p><b>Capital: </b>Delhi</p>
-                    <p><b>Top Level Domain: </b>be</p>
-                    <p><b>Currencies: </b>Euro</p>
-                    <p><b>Languages: </b>Dutch, French</p>
+        <div class="country-details-container">
+
+            <span class="back-button" onclick="history.back()">
+                <i class="fa-solid fa-arrow-left"></i>&nbsp;&nbsp; Back
+            </span>
+           
+            <div class="country-details">
+                <img src="" alt="">
+                <div class="details-text-container">
+                    <h1>Iceland</h1>
+                    <div class="details-text"> 
+                        <p><b>Native Name: </b> <span class="native-name"> </span></p>
+                        <p><b>Population: </b> <span class="population"></span> </p>
+                        <p><b>Region: </b> <span class="region"></span> </p>
+                        <p><b>Sub Region: </b> <span class="sub-region"></span> </p>
+                        <p><b>Capital: </b><span class="capital"> </span> </p>
+                        <p><b>Top Level Domain: </b> <span class="top-level-domain"></span> </p>
+                        <p><b>Currencies: </b><span class="currencies"></span></p>
+                        <p><b>Languages: </b> <span class="languages"></span> </p>
+                    </div>
+                    <div class="border-countries"><b>Border Countries: </b>&nbsp;</div>
                 </div>
             </div>
+
         </div>
+       
     </main>
 </body>
 </html>
