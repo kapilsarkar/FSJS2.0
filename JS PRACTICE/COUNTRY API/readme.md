@@ -2,7 +2,7 @@
 ## LIVE LINK-
 
 
-:file_folder: [FOLDER LINK](https://sunny-tulumba-5ee8b3.netlify.app/)
+:file_folder: [LIVE LINK](https://sunny-tulumba-5ee8b3.netlify.app/)
 
 ## OUTPUT ACHIEVED-
 
