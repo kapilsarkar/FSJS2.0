@@ -46,7 +46,7 @@
 
 ## COUNTRY API  APP---
 
-![IMG1](./IMG1.png)
+![IMG1](./COUNTRY%20API/IMG1.png)
 
 
 :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JS%20PRACTICE/COUNTRY%20API)
