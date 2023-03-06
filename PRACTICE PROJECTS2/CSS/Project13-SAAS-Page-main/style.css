@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---navbar--- */
+.container {
+    background-color: rgb(112, 48, 204);
+    padding: 50px;
+    border-radius: 50px 50px 0 0px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbr ul {
+    margin-left: 20px;
+
+}
+
+.logo {
+    padding: 10px;
+    margin: 10px;
+}
+
+.list-items {
+    margin-left: 585px;
+    margin-top: 20px;
+
+
+}
+
+.nav-item {
+    margin-top: 30px;
+    list-style: none;
+    float: left;
+    margin-right: 30px;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+
+
+.nav-item button {
+    border-radius: 2px;
+    padding: 8px 8px;
+    text-align: center;
+    background-color: rgb(27, 188, 239);
+    color: #fff;
+    border: none;
+}
+
+/* ---hero section--- */
+.hero {
+    display: flex;
+}
+
+
+
+.right-hero img {
+    height: 600px;
+    width: 1033px;
+}
+
+.left-hero h1 {
+    width: 329px;
+    font-size: 50px;
+    color: #fff;
+    margin-top: 117px;
+}
+
+.left-hero p {
+    margin-top: 37px;
+    width: 422px;
+    color: #fff;
+
+}
+
+/* ----middle--- */
+.mid-section {
+    display: flex;
+}
+
+.left-side img {
+    height: 589px;
+    width: 650px;
+}
+
+.right-side {
+
+    margin-top: 117px;
+    width: 220px;
+    margin-left: 357px;
+
+}
+
+.right-side h3 {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.subheading {
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+
+.items h5 {
+    font-weight: 1000;
+}
+
+.items p {
+    margin: 20px 0px;
+    width: 193px;
+
+}
+
+.end {
+    justify-content: center;
+}
+
+.end-heading h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.cards {
+    display: flex;
+    padding: 20px;
+}
+
+.card {
+    background-color: rgb(253, 249, 249);
+    margin: 105px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.card h5 {
+    font-size: 18px;
+    margin: 10px;
+}
+
+.card img {
+    height: 74px;
+    margin: 20px;
+    background-color: blanchedalmond;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.card-active {
+    background-color: rgb(177, 101, 177);
+    border-radius: 20px;
+    color: #fff;
+
+}
+
+/* media query */
+
+
+@media screen and (max-width:640px) {
+
+    .list-items {
+        display: none;
+    }
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .left-hero h1 {
+        text-align: center;
+        margin-left: 2rem;
+    }
+
+    .left-hero p {
+        text-align: center;
+        width: 23rem;
+    }
+
+    .mid-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .left-side img {
+        width: 391px;
+    }
+
+    .right-hero img {
+        width: 350px;
+    }
+
+    .right-side {
+        margin-right: 25rem;
+        align-items: center;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+}
