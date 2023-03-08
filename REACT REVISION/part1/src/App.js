@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
 
+//import HeaderElement from './Header';  //FOR IMPORTING SINGLE FUNCTION
+
+import { Header, HeaderElement } from './Header';  //FOR IMPORTINF MULTIPLE FUNCTIONS THIS IS CALLED OBJECT DESTRUCTRING
+
 function App() {
+//REACT JS IS ALL ABOUT COMPONENET BASED STRUCTURE
+  let names= "Welcome to Kapil Sarkar Website"
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <HeaderElement />
+      <Header />
+      <h1>{names}</h1>
+      
     </div>
   );
 }
