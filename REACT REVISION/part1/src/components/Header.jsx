@@ -4,20 +4,20 @@
 //FUNCTION BASED COMPONENT---
 
 //SIMPLE FUNCTION---
- function Header(){
- return (
-    <div>
-    <h1>This is Your Header Second</h1>
-    <nav>
-    <ul>
+//  function Header(){
+//  return (
+//     <div>
+//     <h1>This is Your Header Second</h1>
+//     <nav>
+//     <ul>
         
-        <li>Career</li>
+//         <li>Career</li>
         
-    </ul>
-    </nav>
-    </div>
- )
-}
+//     </ul>
+//     </nav>
+//     </div>
+//  )
+// }
 
 //MULTIPLE FUNCTIONS CANNONT BE DEFINE IN ONE COMPONENT BY THE DEFAULT KEYWORD
 
@@ -25,25 +25,40 @@
 
 //ARROW FUNCTION---
 
+import "../components/header.css"
+
 const HeaderElement = () => {
     return(
 
-        <div>
+        <div className="header">
             <h1>This is Your Header First</h1>
-        <nav>
-            <ul>
+        <nav className="header-nav">
+            <ul className="header-ul">
                 <li>Home</li>
                 <li>About Us</li>
                 <li>Contact Us</li>
             </ul>
         </nav>
+        
         </div>
         
     )
 }
 
-//export default HeaderElement;
+export default HeaderElement;
 
-export {Header,HeaderElement};
+
+
+//export {Header,HeaderElement};
+
+//OTHER WAY OF EXPORTING WITH DEFAULT---
+
+//export default Header;
+
+//export {HeaderElement}; //Here Header Element is Coming through Object
+
+
+
+
 
 

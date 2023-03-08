@@ -1,0 +1,21 @@
+.Student-Props{
+    background-color: blueviolet;
+    color: #fff;
+    width: 90%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap :20px;
+    border:5px solid #d4e610;
+    height: 50vh;
+}
+.Student-Props h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Student-Props h2 {
+    display: flex;
+    justify-content: space-between;
+}
