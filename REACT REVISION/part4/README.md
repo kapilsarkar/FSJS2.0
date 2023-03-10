@@ -1,3 +1,3 @@
 # RECORD KEEPING MINI PROJECT WITH REACT USE STATE
 
-![IMG](./srC/pic.png)
+![IMG](./src/pic.png)
