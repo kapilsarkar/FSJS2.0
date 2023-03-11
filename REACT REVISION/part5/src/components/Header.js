@@ -1,11 +1,10 @@
 import React from 'react'
-
-import "../components/header.css"
+import "../components/Header.css"
 
 const Header = () => {
   return (
-    <div className='Header'>
-      <h1>MOVIES REVIEW</h1>
+    <div>
+      <h1 className='header'>USE STATE HOOK</h1>
     </div>
   )
 }
