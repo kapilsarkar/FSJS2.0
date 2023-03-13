@@ -3,3 +3,11 @@
     background-color: rgb(210, 27, 27);
     margin: 0;
 }
+.btn{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: #fff;
+    background-color: rgb(12, 88, 3);
+    padding: 20px;
+    border-radius: 10px;
+}

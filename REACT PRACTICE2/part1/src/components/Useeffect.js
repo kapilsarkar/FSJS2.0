@@ -1,21 +1,19 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+
 
 import "../components/Useeffect.css"
 
-import { useState, useEffect } from 'react'
-
 const Useeffect = () => {
-    const [data,setdata] = useState("Ram");
-    console.log("Data Mounted")
 
+const [num,setnum] = useState(0);
 
-  function updateData(){
-    setdata("Sita")
-  }
+  useEffect(()=>{
+    alert("I am Clicked")
+  },[])
   return (
     <div>
-      <h2 className='useefect'>Use Effect Hook in React</h2>
-      <button onClick={updateData}>Update Data</button>
+      <h1 className='useefect'>USE EFFECT HOOK</h1>
+      <button className='btn' onClick={()=>{setnum(num+1);}}>Click me : {num}</button>
     </div>
   )
 }
