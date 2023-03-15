@@ -1,7 +1,11 @@
 import React from "react";
 import {data} from '../App'
 
+
+
+
 function ChildC({fname}){
+    
 
     return(
         <>
@@ -15,6 +19,8 @@ function ChildC({fname}){
                 }
             }
           </data.Consumer>
+          
+          
         </>
        
         
