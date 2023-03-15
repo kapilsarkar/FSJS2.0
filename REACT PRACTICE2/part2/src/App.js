@@ -1,7 +1,8 @@
 
 import './App.css';
 import ChildA  from "./components/ChildA"
-import { createContext, useMemo, useState} from 'react';
+import { createContext, useCallback, useMemo, useState} from 'react';
+import ChildD from './components/ChildD';
 
 
 //create,provider,usecontext
@@ -12,6 +13,11 @@ function App() {
 
   const [add,Setadd]= useState(0);
   const [minus,setMinus] = useState(100);
+  const[add2,Setadd2]=useState(0);
+   const [count,Setcount] = useState(0);
+  const Learning = useCallback(() =>{
+    //Some Operations
+ },[])
 
   const multiplication = useMemo(
     
@@ -39,6 +45,12 @@ function App() {
       <span>{add}</span> <br/>
       <button onClick={()=>setMinus(minus-1)}>Subtraction</button>
       <span>{minus}</span>
+      <h2>USE CALL BACK HOOK</h2>
+      <h3>{add2}</h3>
+      <button onClick={()=>Setadd2(add2+1)}>New Addtion</button>
+      <ChildD learn={Learning} cnt={count}/>
+      <h3>{count}</h3>
+      <button onClick={()=>Setcount(count+2)}>Count</button>
     </div>
   );
 }
