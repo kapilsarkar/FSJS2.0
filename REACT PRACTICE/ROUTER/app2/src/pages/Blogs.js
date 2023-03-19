@@ -23,7 +23,7 @@ const Blogs = () => {
           return ( <article key={id}>
              <h2>{title}</h2>
              <p>{truncateString(body,100)}</p>
-             <Link to={title}>Learn More</Link>
+             <Link to={title} state={{id,title,body}}>Learn More</Link>
           </article>
           );
         })}
