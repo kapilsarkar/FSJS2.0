@@ -26,8 +26,8 @@ const Meal = () => {
   return (
     <div className='main'>
        <div className='heading'>
-        <h1>Search Your Food Reciepe</h1>
-        <h4>LoremipsumLoremipsuLoremipsuLoremipsuLoremipsuLoremipsuLoremipsuLoremipsuLoremipsu</h4>
+        <h1>SEARCH YOUR FOOD :</h1>
+       
        </div>
        <div className='searchBox'>
 
@@ -39,7 +39,9 @@ const Meal = () => {
             show ?   <Mealitem data={item}/> : "Data Not Found"
           }
         </div>
+        <h1 className='serach-alpha'>SEARCH YOUR FOOD ALPHABETICALLY  :</h1>
         <div className='indexContainer'>
+        
          <ReceipeIndex alphaIndex={(alpha)=> setIndex(alpha)}/>
         </div>
     </div>
