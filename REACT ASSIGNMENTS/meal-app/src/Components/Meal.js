@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import Mealitem from './Mealitem'
 import ReceipeIndex from './ReceipeIndex'
-
+import Tippy from '@tippyjs/react';
+import 'tippy.js/dist/tippy.css';
 const Meal = () => {
   const [url,setUrl]=useState("https://www.themealdb.com/api/json/v1/1/search.php?f=a");
   const[item,setItem] = useState();
@@ -29,10 +30,12 @@ const Meal = () => {
         <h1>SEARCH YOUR FOOD :</h1>
        
        </div>
+       <Tippy content="Enter Your Food Name ">
        <div className='searchBox'>
-
-        <input type="search" className='search-bar' onChange={e=> setSearch(e.target.value)} onKeyDown={searcReciepe}/>
+        <input type="search" className='search-bar' onChange={e=> setSearch(e.target.value)} onKeyDown={searcReciepe} placeholder="Search Your Item"/>
         </div> 
+       </Tippy>
+       
         <div className='container'>
           
           {

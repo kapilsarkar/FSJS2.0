@@ -5,7 +5,10 @@
     font-family: 'Bona Nova', serif;
 }
 body{
-    background-color: rgb(230, 92, 23);
+    /* background-color: rgb(230, 92, 23);
+     */
+     background-color: rgb(235, 12, 12);
+    
 }
 .main{
     width: 100%;
