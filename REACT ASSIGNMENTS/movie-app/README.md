@@ -6,4 +6,4 @@
 
 # LIVE LINK
 
-[LINK](https://kapilmovie.netlify.app)
+[LINK](https://beamish-sunflower-904326.netlify.app)
