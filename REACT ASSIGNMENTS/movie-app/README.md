@@ -6,4 +6,4 @@
 
 # LIVE LINK
 
-[LINK]()
+[LINK](https://kapilmovie.netlify.app)
