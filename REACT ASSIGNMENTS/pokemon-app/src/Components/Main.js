@@ -4,8 +4,7 @@ import Pokeinfo from "./Pokeinfo";
 import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";
-import Tippy from '@tippyjs/react';
-import 'tippy.js/dist/tippy.css';
+
 const Main=()=>{
     const [pokeData,setPokeData]=useState([]);
     const [loading,setLoading]=useState(true);
@@ -40,7 +39,7 @@ const Main=()=>{
             <div className="container">
                 
                 <div className="left-content">
-                <Tippy content="Click Here For More Information"></Tippy>
+              
                   <Card pokemon={pokeData} loading={loading} infoPokemon={poke=>setPokeDex(poke)}/>
                   
                     
