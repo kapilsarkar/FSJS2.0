@@ -6,4 +6,4 @@
 
 # LIVE LINK
 
-[LINK](https://beamish-sunflower-904326.netlify.app)
+[LINK](https://quiet-macaron-ae3034.netlify.app/)

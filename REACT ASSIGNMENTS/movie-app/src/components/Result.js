@@ -1,8 +1,10 @@
 import React from 'react'
-
+import Tippy from '@tippyjs/react';
+import 'tippy.js/dist/tippy.css';
 function Result({result,openDetail}) {
   return (
-    <div className='result ' onClick={e => openDetail(result.imdbID)}>
+    <Tippy content="Click Here to Know More">
+         <div className='result ' onClick={e => openDetail(result.imdbID)}>
         <div className='border border-dark border-3'>
         <img src={result.Poster} alt="img" />
         </div>
@@ -11,6 +13,8 @@ function Result({result,openDetail}) {
          </div>
        
     </div>
+    </Tippy>
+   
   )
 }
 
