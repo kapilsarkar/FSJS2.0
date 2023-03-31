@@ -24,3 +24,15 @@ const msg2 = '   Hello John Cena    '
 console.log(msg2.trimStart())
 //TRIM END
 console.log(msg2.trimEnd())
+
+//STRING METHODS WITH ARGUMENTS
+
+//1. INCLUDES()-
+
+const newMsg = 'Hello Welcome To WWE Wrestlemania'
+console.log(newMsg.includes('WWE'))
+console.log(newMsg.includes('WWF'))
+ //2. INDEXOF()-
+console.log(newMsg.indexOf('W'))
+console.log(newMsg.indexOf('z'))
+
