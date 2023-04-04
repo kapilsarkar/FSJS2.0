@@ -32,74 +32,7 @@
 
 
 
-![IMG2](https://img.shields.io/badge/HTML-LEARNINGS-red)
-
-### :green_book: HTML CLASS LEARNINGS :
-
-1. `HTML CLASS-1` :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/CLS01_HTML)
-
-1. `HTML CLASS-2` :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/CLS02_HTML)
-
-1. `HTML CLASS-3` :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/CLS03_HTML)
-
-1. `HTML CLASS-4` :file_folder:  [FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/HTML%20CLASS%20FILES)
-
-![CSS](https://img.shields.io/badge/CSS-LEARNINGS-red)
-
-
-### :green_book: CSS CLASS LEARNINGS :
-
-1. `CSS CLASS FILE-1` :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/CLS01_CSS)
-
-1. `CSS CLASS FILE-2` :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/CLS02_CSS)
-
-1. `CSS CLASS FILE-3` :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/CLS03_CSS)
-
-1. `CSS CLASS FILE-4` :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/CLS04_CSS)
-
-
-### :green_book: JAVASCRIPT CLASS LEARNINGS :
-
-
-1. `JAVASCRIPT BASICS` :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/JS_01)
-
-1.  `CONDITIONS IN JAVASCRIPT` :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/JS_02)
-
-1. `LOOPS IN JAVASCRIPT`  :file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/LOOPS)
-
-1. `MATH DATE RANDOM IN JAVASCRIPT` :file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/MATH%20DATE%20RANDOM)
-
-1. `ARRAY PART1` :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/ARRAY)
-
-1. `ARRAY PART2` :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/ARRAY2)
-
-1. `FUNCTIONS` :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/FUNCTIONS)
-
-1. `OBJECTS IN JAVASCRIPT` :file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/OBJECTS)
-
-1. `PROTOTYPES IN JAVASCRIPT` :file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/PROTOTYPES)
-
-1. `DOM MANIPULATION IN JAVASCRIPT` :file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/DOM)
-
-
-1. `HIGHER ORDER FUNCTION IN JAVASCRIPT`
-:file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/HOF)
-
-
-1. `SPREAD AND REST IN JAVASCRIPT`
-:file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/SPREAD%20AND%20REST)
-
-
-1. `SET TIME OUT AND SET TIME INTERVAL IN JAVASCRIPT`:file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/SET%20TIME%20OUT)
-
-
-1. `PROMISES IN JAVASCRIPT`:file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/PROMISES)
-
-
-1. `TRY CATCH THROW IN JAVASCRIPT`:file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/TRY%20CATCH%20THROW)
-
- 
- ### :chart: JAVASCRIPT ASSIGNMENT :
+ ### :chart::green_book: JAVASCRIPT ASSIGNMENT :
 
  1. `JAVASCRIPT ASSIGNMENT OF 30 QUESTIONS` :file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20ASSIGNMENTS)
 
@@ -107,7 +40,7 @@
  1. `DOM ASSIGNMENTS OF 9 QUESTIONS` :file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/DOM%20ASSIGNMENTS)
 
 
- ### :chart: JAVASCRIPT PRACTICE : 
+ ### :chart::green_book: JAVASCRIPT PRACTICE : 
 
  :butter::butter::butter::butter::butter::butter::butter::butter::butter:
  
@@ -125,7 +58,7 @@
 
 ### 💻 LIST OF PROJECTS :
 
-
+![IMG3](https://img.shields.io/badge/HTML%20AND%20CSS-PROJECTS-red)
 :star2::star2::star2::star2::star2::star2:
 
 
@@ -145,6 +78,8 @@
 
 ### 💻 LIST OF PROJECTS :
 
+![IMG3](https://img.shields.io/badge/HTML%20AND%20CSS-PROJECTS-red)
+
 :sparkles::sparkles::sparkles::sparkles::sparkles::sparkles:
 
 1. `PROJECT-1` CREDIT CARD LANDING PAGE :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/HTML-CSS-EXTRA-PROJECTS) :globe_with_meridians:[LIVE LINK](https://meek-cocada-cec154.netlify.app)
@@ -157,11 +92,13 @@
 
 1. `PROJECT-5` BEATS  LANDING PAGE :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/BEATS) :globe_with_meridians:[LIVE LINK](https://63b3d3bb1cc5112932d1b693--superb-elf-100af1.netlify.app)
 
-1. `PROJECT-6` DATA ANLYTICS LANDING PAGE :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/HTML%20CSS%20PROJECTS/DATA%20ANALYTICS) :globe_with_meridians:[LIVE LINK](https://fsjs-2-0-p90zttlrn-kapilsarkar.vercel.app)
+1. `PROJECT-6` DATA ANALYTICS LANDING PAGE :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/HTML%20CSS%20PROJECTS/DATA%20ANALYTICS) :globe_with_meridians:[LIVE LINK](https://fsjs-2-0-p90zttlrn-kapilsarkar.vercel.app)
 
 ![IMG6](https://img.shields.io/badge/TAIWIND%20ROJECT-ON%20VS%20CODE%20CLONE-yellow)
 
-:boom::boom::boom:
+# TAILWIND CSS PROJECTS :
+
+:green_book::green_book::boom::boom::boom:
 
 :file_folder:
 [FOLDER LINK](https://github.com/kapilsarkar/TAILWIND-PROJECT-VSCODE):globe_with_meridians:[LIVE LINK](https://tailwind-project-vscode.vercel.app)
