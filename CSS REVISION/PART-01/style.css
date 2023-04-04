@@ -1,0 +1,19 @@
+body{
+    margin:0;
+    padding:0;
+}
+.parent{
+    padding: 10px;
+    border: 5px solid red;
+    display: flex;
+}
+.parent-span{
+    border: 5px solid blue;
+}
+.parent-para {
+    border: 5px solid yellowgreen ;
+    
+}
+.parent-anchor {
+    border: 5px solid green;
+}
