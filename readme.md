@@ -167,6 +167,12 @@
 [FOLDER LINK](https://github.com/kapilsarkar/TAILWIND-PROJECT-VSCODE):globe_with_meridians:[LIVE LINK](https://tailwind-project-vscode.vercel.app)
 
 
+### 💻 REACT ROUTER ASSIGNMENT :
+
+![IMG6](https://img.shields.io/badge/REACT-ROUTER%20ASSIGNMENT-blue)
+
+`ROUTER PROJECT` :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/REACT%20PRACTICE/ROUTER/app3) :globe_with_meridians:[LIVE LINK](https://soft-otter-80ef00.netlify.app/)
+
 ### 💻 LIST OF REACT PROJECTS :
 
 ![IMG6](https://img.shields.io/badge/REACT-PROJECTS-red)
