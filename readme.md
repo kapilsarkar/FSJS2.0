@@ -46,7 +46,7 @@
  
  `VANILLA JAVASCRIPT PROJECTS`:file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JS%20PRACTICE)
 
-![IMG3](https://img.shields.io/badge/HTML%20AND%20CSS-PROJECTS-brightgreen)
+
 
 
 ### :green_book: JAVASCRIPT REVISION :
