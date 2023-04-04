@@ -77,7 +77,7 @@
 
 1. `OBJECTS IN JAVASCRIPT` :file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/OBJECTS)
 
-1. `PROTOTYOES IN JAVASCRIPT` :file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/PROTOTYPES)
+1. `PROTOTYPES IN JAVASCRIPT` :file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/PROTOTYPES)
 
 1. `DOM MANIPULATION IN JAVASCRIPT` :file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20CLASS%20FILES/DOM)
 
@@ -114,6 +114,14 @@
  `VANILLA JAVASCRIPT PROJECTS`:file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JS%20PRACTICE)
 
 ![IMG3](https://img.shields.io/badge/HTML%20AND%20CSS-PROJECTS-brightgreen)
+
+
+### :green_book: JAVASCRIPT REVISION :
+
+![IMG3](https://img.shields.io/badge/JAVASCRIPT-REVISION-brightgreen)
+
+
+ `REVISION IN JAVASCRIPT`:file_folder:[FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/JAVASCRIPT%20REVISION)
 
 ### 💻 LIST OF PROJECTS :
 
@@ -158,6 +166,32 @@
 :file_folder:
 [FOLDER LINK](https://github.com/kapilsarkar/TAILWIND-PROJECT-VSCODE):globe_with_meridians:[LIVE LINK](https://tailwind-project-vscode.vercel.app)
 
+
+### 💻 LIST OF REACT PROJECTS :
+
+![IMG6](https://img.shields.io/badge/REACT-PROJECTS-red)
+
+:star2::star2::star2::star2::star2::star2:
+
+1. `PROJECT-1` TODO APP :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/REACT%20ASSIGNMENTS/todo-app) :globe_with_meridians:[LIVE LINK](https://kapiltodapp.netlify.app/) 
+
+
+1. `PROJECT-2` ROCK PAPER SCISSOR GAME :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/REACT%20ASSIGNMENTS/rock-paper-scissor-app) :globe_with_meridians:[LIVE LINK](https://animated-longma-c2ea47.netlify.app/) 
+
+
+1. `PROJECT-3` MEAL APP :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/REACT%20ASSIGNMENTS/meal-app) :globe_with_meridians:[LIVE LINK](https://kapilmealdb.netlify.app/)
+
+
+1. `PROJECT-4` POKEMON APP :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/REACT%20ASSIGNMENTS/pokemon-app) :globe_with_meridians:[LIVE LINK](https://elaborate-custard-e034a2.netlify.app/)
+
+
+1. `PROJECT-5` MOVIE APP :file_folder: [FOLDER LINK](https://github.com/kapilsarkar/FSJS2.0/tree/main/REACT%20ASSIGNMENTS/movie-app) :globe_with_meridians:[LIVE LINK](https://quiet-macaron-ae3034.netlify.app/)
+
+
+
+
+
+ 
 
 
 
