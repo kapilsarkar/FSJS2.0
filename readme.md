@@ -1,4 +1,4 @@
-# THIS WHOLE REPOSITORY IS ABOUT ALL THE CLASS FILES, PROJECTS,ASSIGNMENTS,ARTICLES OF FULL STACK JAVASCRIPT 2.0
+# THIS WHOLE REPOSITORY IS ABOUT ALL THE PROJECTS,ASSIGNMENTS,ARTICLES OF FULL STACK JAVASCRIPT 2.0
 
 ![ART](https://img.shields.io/badge/ARTICLES-WRITTEN-red)
 
@@ -8,7 +8,7 @@
 
 1. :pencil2:  `AN INTRODUCTION TO WEB AND HTML`:point_right: [LINK](https://kapil2.hashnode.dev/an-introduction-to-web-and-html)
 
-1. :pencil2:  `AN INTODUCTION TO CSS SELECTORS`:point_right: [LINK](https://kapil2.hashnode.dev/introduction-to-css-selectors)
+1. :pencil2:  `AN INTRODUCTION TO CSS SELECTORS`:point_right: [LINK](https://kapil2.hashnode.dev/introduction-to-css-selectors)
 
 1. :pencil2: `CSS POSITIONING`:point_right: [LINK](https://kapil2.hashnode.dev/css-positioning)
 
@@ -96,7 +96,7 @@
 
 ![IMG6](https://img.shields.io/badge/TAIWIND%20ROJECT-ON%20VS%20CODE%20CLONE-yellow)
 
-# TAILWIND CSS PROJECTS :
+### TAILWIND CSS PROJECTS :
 
 :green_book::green_book::boom::boom::boom:
 
