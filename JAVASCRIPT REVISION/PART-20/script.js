@@ -22,3 +22,11 @@ function introduce(username = 'On Going Process',eduction ='Learning',age ='coun
 introduce('Kapil Sarkar','Software Engineer',32)
 introduce('Brock Lesnar','Elctrical Engineer ',46)
 introduce()
+
+//Function with return type
+
+function addTwoNumbers(a ,b){
+    return a + b
+}
+const result = addTwoNumbers(9,10)
+console.log(`The Output of Addition is ${result}`)
