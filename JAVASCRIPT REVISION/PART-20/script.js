@@ -5,5 +5,20 @@ function introduceMe(){
     console.log('I am a Web Developer.')
     
 }
-introduceMe()
+// const returnValue= introduceMe()
+// console.log(returnValue)
 
+introduceMe()
+ 
+
+//Function with arguments
+
+function introduce(username = 'On Going Process',eduction ='Learning',age ='counting'){
+    console.log(`Hi My Name is ${username}`)
+    console.log(`I am a ${eduction} `)
+    console.log(`My Age is ${age} year's old`)
+}
+
+introduce('Kapil Sarkar','Software Engineer',32)
+introduce('Brock Lesnar','Elctrical Engineer ',46)
+introduce()
