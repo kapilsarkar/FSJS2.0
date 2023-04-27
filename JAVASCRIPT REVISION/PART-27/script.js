@@ -7,4 +7,3 @@ function x (){
 }
 x()
 
-y()
