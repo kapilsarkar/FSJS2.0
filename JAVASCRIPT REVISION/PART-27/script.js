@@ -1,9 +1,6 @@
-function x (){
-    var a =7
-    function y(){
-        console.log(a)
-    }
-    y()
+console.log('Hi-1')
+for(let i=0 ; i<=5; i++){
+    console.log(i)
 }
-x()
+console.log('Hi-2')
 
