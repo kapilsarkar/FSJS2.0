@@ -59,3 +59,27 @@ const sumResult = arr2.reduce(function(acc,curr){
 },0)
 
 console.log(`The sum function in case of reduce is :${sumResult}`)
+
+//Finding the max value in an array by normal function ---
+
+function findMax(arr2){
+    let max = 0
+    for(let j =0;j< arr2.length;j++){
+        if(arr2[j] > max){
+           max = arr2[j]
+        }
+    }
+    return max
+}
+console.log(`The maximum value inside array by normal function is : ${findMax(arr2)}`)
+
+//finding the maximum value in an array by reduce function---
+
+const outputReduce = arr2.reduce(function(max,curr){
+   if(curr > max){
+    max = curr
+   }
+   return max
+},0)
+
+console.log(`The maximum value inside array by reduce is : ${outputReduce}`)
