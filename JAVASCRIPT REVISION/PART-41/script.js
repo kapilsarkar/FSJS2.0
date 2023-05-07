@@ -13,6 +13,11 @@ console.log(color0,color1,color2)
 const [cl1,cl2,cl3] = colors
 console.log(`The values through array destructuring ${cl1} ${cl2} ${cl3}`)
 
+//Destructuring a specific value from an array---
+
+const {3:cl4} = colors
+console.log(`Destructuring a specific value from an array : ${cl4}`)
+
 //Object---
 
 const user = {
@@ -31,3 +36,18 @@ const user = {
 
  //Same thing can be done through object destructuring---
 
+const {fullName : username ,age : userage} = user
+
+console.log(`The values through object destructuring is : ${username} , ${userage}`)
+
+const {address : {city : usercity}} = user
+
+console.log(usercity)
+
+//Destructuring  through function---
+
+function intro({fullName,age}){
+  console.log(fullName,age)
+}
+
+intro(user)
